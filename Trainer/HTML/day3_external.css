@@ -1,0 +1,17 @@
+h2,
+h1,
+p {
+  background-color: green;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: yellow;
+}
+
+h1 {
+  color: aqua;
+}
