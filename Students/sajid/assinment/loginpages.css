@@ -1,3 +1,24 @@
 body{
     background-color: #20364b;
+    margin-top: 20%;
+    margin-bottom:20%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#log-from_title{
+    color: #fdc11f; 
+}
+#lbl_email_reg{
+    color: #fdc11f;
+}
+#lbl_password_reg{
+    color: #fdc11f;
+}
+#bun_reg_bun{
+   text-decoration-color: #fdc11f;
+}
+input:hover{
+    color: rgb(15, 15, 14);
+    background-color:rgb(196, 25, 128);
+    border-radius: 25px;
 }
