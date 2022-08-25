@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+    padding:40px;
+}
+#div-bg-form{
+    background-color: rgb(165, 255, 62);
+    width:70%;
+    height:1150px;
+    margin:0 auto;
+    padding:10px;
+    padding-left:40px;
+}
+.div-input-box{
+    width:93%;
+    height:40px;
+    background-color: rgb(81, 201, 231);
+    border:2px solid #fff;
+    border-radius: 5px;;
+    margin-top:5px;
+    padding:10px;
+}
+
+   
+    
+
+#input-first-last,#input-email,#input-phone,#input-country{
+    width:50%;
+    padding:10px;
+    margin-left:20%;
+    border:none;
+    font-size:17px;
+    border-radius:4px;
+}
+#input-post-code{
+    width:50%;
+    padding:10px;
+    margin-left:17%;
+    border:none;
+    font-size:17px;
+    border-radius:4px;
+}
+#input-card,#input-code,#input-no{
+    width:50%;
+    padding:10px;
+    margin-left:14%;
+    border:none;
+    font-size:17px;
+    border-radius:4px;
+}
+
+#text-area{
+      width:49%;
+      height:160px;
+      margin-top:10px;
+      margin-left:20%;
+      padding-left: 10px;;
+      border-radius:4px;
+      padding: 10px;
+      border:none;
+}
+#text-area:focus{
+    outline: none;
+}
+#text-area-title{
+   float: left; 
+   margin-top:20px;
+   margin-left:10px;
+}
+input[type="radio"]{
+  margin-left:90px;
+  margin-top:10px;
+  width:20px;
+  height:20px;
+}
+input:focus{
+   
+    outline: none;
+}
+label{
+    font-size:22px;
+    margin-left:10px;
+}
+.div-input-address{
+    width: 95%;
+    height:200px;
+    background-color: rgb(81, 201, 231);
+    border:2px solid #fff;
+    border-radius: 5px;;
+    margin-top:5px;
+}
+.div-card{
+    width: 93%;
+    height:80px;
+    background-color: rgb(81, 201, 231);
+    border:2px solid #fff;
+    border-radius: 5px;;
+    margin-top:5px;
+    padding:10px;
+}
