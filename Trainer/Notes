@@ -3,9 +3,11 @@ git pull ---> to get latest code from the repository
 OR WHEN YOU GOT ERROR FOLLOW BELOW STEP:-
 
 1) git add .    ---->add all file which need to push on repo
-2) git commit -m "message"
+2) git commit -m "m
+
+sage"
 
 ex:-
 git commit -m "created registration and login page"
 3) git pull ---> to get latest code from the repository
-4) git push -----> to push our code changes from local to git repo
+4) git push -----> to push our code changes from local to git repo  -
