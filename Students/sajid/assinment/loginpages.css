@@ -1,7 +1,7 @@
 body{
     background-color: #20364b;
-    margin-top: 20%;
-    margin-bottom:20%;
+    margin-top: 0%;
+    margin-bottom:0%;
     margin-left: 50%;
     margin-right: 50%;
 }
@@ -19,6 +19,6 @@ body{
 }
 input:hover{
     color: rgb(15, 15, 14);
-    background-color:rgb(196, 25, 128);
+    background-color:rgb(250, 245, 248);
     border-radius: 25px;
 }
