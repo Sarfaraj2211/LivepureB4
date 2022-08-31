@@ -1,24 +1,39 @@
-body{
-    background-color: #20364b;
-    margin-top: 0%;
-    margin-bottom:0%;
-    margin-left: 50%;
-    margin-right: 50%;
+
+/* don't add style with tag name, pass with id/class */
+body {
+  background-color: #20364b;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
-#log-from_title{
-    color: #fdc11f; 
+
+
+/* don't try to add css with id, try with class name */
+
+/* #log-from_title {
+  color: #fdc11f;
 }
-#lbl_email_reg{
+#lbl_email_reg {
+  color: #fdc11f;
+}
+#lbl_password_reg {
+  color: #fdc11f;
+} */
+
+
+.text_color{
     color: #fdc11f;
 }
-#lbl_password_reg{
-    color: #fdc11f;
+
+#bun_reg_bun {
+  text-decoration-color: #fdc11f;
 }
-#bun_reg_bun{
-   text-decoration-color: #fdc11f;
-}
-input:hover{
-    color: rgb(15, 15, 14);
-    background-color:rgb(250, 245, 248);
-    border-radius: 25px;
+
+
+
+input:hover {
+  color: rgb(15, 15, 14);
+  background-color: rgb(250, 245, 248);
+  border-radius: 25px;
 }
