@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1><hr>BLACK GOOSE BISTRO</h1>
+<h1 style="color: red;"><b>The Restaurant</h1>
+    <p>The Black Goose Bistro offers casual lunch and dinner fare i n a hip atmosphare.The menu changes<br>regularly to highlight freshest ingredients</p>
+<h1 style="color: red;">Catering</h1>
+<p>You have fun...<i>we'll handle the cooking.Black Goose Catering can handle events from snacks for bridge<br>club to elegant corporate fundraisers.</i></p>
+<h1 style="color: red;"><i>Location and Hours</i></h1>
+<p><i>Seekonk,masschusetts;<br>Monday through Thursday 11am to 9pm,<br<>Friday and saturday,11am to midnight</i></p>
+
+
+
+
+
+
+</body>
+</html>
