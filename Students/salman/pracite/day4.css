@@ -1,8 +1,8 @@
-h1{
-    background-color: yellow;
-    color: red;
-
+h1 {
+  background-color: yellow;
+  color: red;
 }
-p{
-    color: blue;
+p,
+blockquote {
+  color: blue;
 }
