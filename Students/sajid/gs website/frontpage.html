@@ -4,60 +4,29 @@
 <head>
 
     <meta name="viewport" content="width=device,initial-scale=1">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            overflow: hidden;
-            background-color: aquamarine;
-        }
-
-        .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .topnav a.active {
-            background-color: #04AA6D;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./fontpage.css">
 </head>
-<body>
+<boday>
     <div class="topnav">
-        <a href="#home">HOME</a>
+        <a href="./homepage.html">HOME</a>
         <a href="#service">SEREVICE</a>
         <a href="#contect">CONTECT</a>
         <a href="#about">ABOUT</a>
-     </div>
-     <div style="padding: left 16px;">
-       <center>
-        <h2 style="font-style: italic;">Welcome To<br>G.S.<br> Air Condition & Refrigeration</h2>
-       <form style=" border-style: solid;
-       border-color: black;
-       background-color: aqua;
-       margin-left: 119px;
-       margin-right: 107px;">
-        <leble for="Phone">Please Enter Your Phone Number:<br> </leble>
-        <input type="tel" id="phone" name="phone" pattern="[o-9]{3}-[0-9]{3}-[0-9]{4}" required>
-       <input type="button" value="Submit">
-        <br>
-       <small>Format:+91888239****<br><span style="color:red">Note:- Inspection charge-349/.</span> </small>
-        </form>
-        
-
-       </center>
+    </div>
+    <div style="padding: left 16px;" id="form1">
+        <center>
+            <h2 style="font-style: italic;">Welcome To<br>G.S.<br> Air Condition & Refrigeration</h2>
+            <form class="form1">
+                <leble for="Phone">Please Enter Your Phone Number:<br> </leble>
+                <input type="tel" id="phone" name="phone" pattern="[o-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="button" value="Submit">
+                <br>
+                <small>Format:+91888239****<br><span style="color:red">Note:- Inspection charge-349/.</span> </small>
+            </form>
+        </center>
+        <div>
+            
+        </div>
+    </div>
 </boday>
 </html>

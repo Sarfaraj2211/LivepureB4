@@ -1,0 +1,9 @@
+h3 {
+  background-color: red;
+}
+
+p,
+h1 {
+  background-color: yellow;
+  color: red;
+}
