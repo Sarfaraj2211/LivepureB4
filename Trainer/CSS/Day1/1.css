@@ -3,6 +3,14 @@ h2 {
   background-color: brown;
 }
 p {
- background-color: red;
+  background-color: red;
 }
+
+/* <h1>2.Internal CSS:-</h1> */
+
+
+/* 
+h1{
+  color: blue;
+} */
 

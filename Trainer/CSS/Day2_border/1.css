@@ -1,0 +1,35 @@
+h1 {
+  color: red;
+  background-color: yellow;
+
+  border: 20px solid red;
+  border: 5px groove #245252;
+  border: 5px dotted hsla(135, 90%, 48%, 0.562);
+  border: 5px dashed hsla(135, 90%, 48%, 0.562) !important;
+  /* property:width  style/appearance   borderColor */
+}
+
+h2 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+h3 {
+  height: 200px;
+  width: 500px;
+  background-color: rgb(95, 209, 29);
+  border: 4px groove red;
+}
+
+/* h4{
+  border-radius: 30%;
+} */
+
+h4,img {
+  border-radius: 50%;
+  background-color: aqua;
+  /* border: 2px solid red; */
+  width: 200px;
+  height: 200px;
+}
