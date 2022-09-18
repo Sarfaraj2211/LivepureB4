@@ -1,0 +1,16 @@
+#heading{
+    font-family:Arial;
+   padding:8px;
+    text-align:right;
+    background-color: cadetblue;
+
+}
+.anc{
+    color: white;
+}
+#header li{
+    list-style-type: none;
+    color: black;
+    display:flex;
+    margin-left: 20px;
+}
