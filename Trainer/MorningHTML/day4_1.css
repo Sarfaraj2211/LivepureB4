@@ -1,0 +1,67 @@
+/* tag based */
+/* div {
+  background-color: magenta;
+} */
+
+/* css by targeting ID */
+/* id = # */
+#bannerHeadBlock {
+  background-color: rgb(46, 240, 28);
+}
+
+/* #headBannerText,
+#bannerParagraphTitle,
+span {
+  color: red;
+} */
+
+#headBannerText {
+  color: red;
+}
+
+#bannerDetailBlock {
+  background-color: burlywood;
+}
+
+/* #bannerParagraphTitle {
+  color: red;
+} */
+
+/* css based on class  target by .(dot) */
+.commonBorder,
+#paraDetail,
+h1 {
+  border: 5px solid rgb(13, 186, 255);
+}
+
+
+
+/* <p id="p" class="p"> */
+
+/* .p{
+    background-color: yellow;
+}
+
+p{
+    background-color: red;
+}
+#p{
+    background-color: palevioletred;
+} */
+
+
+
+#p{
+    background-color: rgb(45, 247, 213);
+}
+
+#p{
+    background-color: red;
+}
+#p{
+    background-color: rgb(8, 240, 27);
+}
+
+/* .color{
+    color: rebeccapurple;
+} */
