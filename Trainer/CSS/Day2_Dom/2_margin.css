@@ -1,0 +1,41 @@
+h1 {
+  /* border: 2px solid red; */
+
+  /* 1 value */
+  /* margin: 50px; */
+
+  /* two value */
+  /* margin: 50px 15px; */
+
+  /* three value */
+  /* margin: 5px 20px 89px; */
+
+  /* four value */
+  /* margin: 0px 0px 50px  0px; */
+  /* 
+margin-top: 100px;
+margin-left: 150px;
+margin-bottom: 150px;
+margin-right: 150px; */
+}
+
+div {
+  border: 1px solid red;
+  /* color: green; */
+  margin-left: 50px;
+}
+
+#span {
+  background-color: red;
+}
+
+p.ex1 {
+  margin-left: inherit;
+  /* width: inherit; */
+}
+/*  margin means space between outside border  */
+section {
+  border: 2px solid red;
+  margin: 56px 160px;
+  padding: 7px 325px 97px 187px;
+}
