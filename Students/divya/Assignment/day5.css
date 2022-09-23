@@ -1,0 +1,46 @@
+h1 {
+    background-color: rgb(180, 60, 136);
+}
+
+/* .taj{
+ background-image: url(./../image/taj2.jpg);
+ height: 500px;
+} */
+
+.tajbackground{
+    background-image: url(/Students/divya/image/taj\ mahal.jpg);
+    height: 500px;
+}
+
+.rotetion{
+    background-color: blueviolet;
+    height: 40px;
+    font-size: larger;
+}
+
+span{
+    background-color: yellow;
+}
+
+.paragraph{
+    border: 10px double brown;
+    outline: 7px solid red;
+    padding: 50px;
+    height: 400px;
+    margin: 30px;
+}
+.font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: bisque;
+}
+#paraborder{
+    margin: 15px;
+
+}
+.background{
+    background-image: url(/Students/divya/image/background.jpg);
+    height: 1000px;
+    /* width: 500px; */
+}
