@@ -1,7 +1,9 @@
 div {
-  
   height: 200px;
-  width: 50%;
+  /* width: 500%;    */ /*   it will scroll bar at the bottom for left to right*/
+  /* width: 5000px; */
+  max-width: 50000px;
+  /* min-width: 1000px; */
   background-color: powderblue;
 }
 /* 
@@ -9,6 +11,6 @@ h1{
   font-size: 152px;
 } */
 
-.css{
+.css {
   color: red;
 }
