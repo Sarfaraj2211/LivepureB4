@@ -7,40 +7,44 @@ h1 {
  height: 500px;
 } */
 
-.tajbackground{
+.tajbackground {
     background-image: url(/Students/divya/image/taj\ mahal.jpg);
-    height: 500px;
+    height: 700px;
 }
 
-.rotetion{
+.rotetion {
     background-color: blueviolet;
     height: 40px;
     font-size: larger;
 }
 
-span{
+span {
     background-color: yellow;
 }
 
-.paragraph{
+.paragraph {
     border: 10px double brown;
     outline: 7px solid red;
     padding: 50px;
     height: 400px;
     margin: 30px;
 }
-.font{
+
+.font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     padding: 30px;
     background-color: bisque;
 }
-#paraborder{
+
+#paraborder {
     margin: 15px;
 
 }
-.background{
+
+.background {
     background-image: url(/Students/divya/image/background.jpg);
     height: 1000px;
-    /* width: 500px; */
+    width: 1500px;
+    margin: -10px;
 }
