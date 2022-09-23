@@ -7,5 +7,36 @@
   border: 2px solid red;
 } */
 
-
 /* outline: 2px solid red;outline-offset: 2px; */
+
+/* .frame{
+  max-width: 1000px;
+} */
+
+.map,
+.youtube {
+  border: 25px groove orangered;
+  margin-left: 71px;
+  padding: 42px;
+  background-color: yellow;
+  background-image: url('./../image/4.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+.bdy {
+  height: 2000px;
+  /* background-color: red; */
+  background-image: url('./../image/taj\ pic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+/* .youtube {
+  margin-left: 71px;
+  padding: 42px;
+} */
