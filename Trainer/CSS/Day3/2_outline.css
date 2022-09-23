@@ -1,0 +1,63 @@
+.border {
+  border: 2px solid red;
+  text-align: center;
+  background-color: yellow;
+}
+
+.outDiv{
+  margin: 50px;
+  background-color: aqua;
+  height: 5px;
+  width: 150px;
+  padding: 25px;
+}
+.outline {
+  outline: 2px solid green;
+  outline-width: 2px;
+  outline-offset: 15px;
+  background-color: blue;
+}
+
+
+.txt_alng{
+  text-align: justify;
+}
+
+
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+
+
+.amb{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+img.a {
+  vertical-align: baseline;
+}
+ 
+img.b {
+  vertical-align: text-top;
+}
+ 
+img.c {
+  vertical-align: text-bottom;
+}
+ 
+img.d {
+  vertical-align: sub;
+}
+ 
+img.e {
+  vertical-align: super;
+}
