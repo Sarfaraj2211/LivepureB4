@@ -63,7 +63,11 @@ body {
   width: 293px;
   height: 300px;
   margin: 6px;
+
 }
+.leftImage:hover{
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);}
 
 .column.middle {
   background-image: url(./../../../Trainer/image/background3.jfif);
@@ -130,3 +134,8 @@ body {
       opacity: 0;
   }
 }
+
+/* img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
