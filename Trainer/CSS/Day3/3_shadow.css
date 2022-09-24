@@ -1,0 +1,9 @@
+.shadow{      /* horizontal(l r)   vertical(T B)  blur */
+/* text-shadow: 2px 3px 1px red; */
+color: white;
+/* text-shadow: 0 0 3px #ff0000; */
+
+text-shadow: 0 0 3px rgb(247, 0, 144), 0 0 5px #0326ee;
+background-color: aqua;
+}
+

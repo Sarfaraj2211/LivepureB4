@@ -19,3 +19,13 @@ Answer:-
 
 5) Name few new tags included in the HTML 5 ?
 Answer:-
+
+
+6) How to add any webpage inside our webpage?
+Answer:-
+
+7)List out block level and inline tag
+Answer:-
+
+8) what is element?
+Answer:-

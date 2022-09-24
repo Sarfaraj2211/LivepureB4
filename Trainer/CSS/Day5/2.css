@@ -1,0 +1,37 @@
+p {
+  background-color: rgb(93, 206, 127);
+}
+
+/* p.head1,.head6 {
+  color: red;
+} */
+
+p.head1,
+p.head5,
+p#head6 {
+  background-color: red;
+}
+
+/* p.classname
+tag id/class */
+
+/* universal selector */
+* {
+  /* text-align: center; */
+  text-shadow: 2px 2px 1px green;
+}
+
+/* on moving cursor over text */
+p:hover {
+  text-align: center;
+  text-shadow: 2px 2px 1px rgb(243, 3, 143);
+  color: rgb(81, 248, 3);
+  background-color: darkorange;
+}
+
+.img1:hover {
+  outline: 3px double red;
+  border: 2px double palevioletred;
+  height: 500px;
+  width: 500px;
+}
