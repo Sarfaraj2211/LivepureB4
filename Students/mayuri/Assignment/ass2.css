@@ -1,0 +1,37 @@
+/* #div1{
+
+      border: 10px double palevioletred;
+      margin-top: 500px;
+
+
+     } */
+.div1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 8px 7px 2px rgb(170, 227, 176);
+
+}
+
+.div2 {
+    background-image: url(./../image/roseFlower.gif);
+}
+
+.iframeDivBlock {
+
+    text-align: center;
+
+
+}
+
+.bodyImage {
+    background-image: url('./../image/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .iframeBlock {
+    height: 300px;
+    width: 700px;
+
+} */

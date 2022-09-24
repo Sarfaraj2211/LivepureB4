@@ -1,5 +1,5 @@
 1) What are style sheets?
-Answer:-stylesheetis a set of CSS usedto control the layout and design of a webpage.
+Answer:-stylesheetis a set of CSS used to control the layout and design of a webpage.
 
 2) Write an HTML table tag sequence that outputs the following:
 O/p:-
@@ -27,5 +27,6 @@ Answer:-block level tag :- <p>, <div>,<Address>,<h1>,<section>,<pre>,<hr>,
         inline tag:- <span>,<a>,<i>,<em>,<bdo>,<br>,<small>,<sub>,<strong>,<cite>,<b>,<abbr>
 
 8) what is element?
-Answer:-html element define by starting tag html element is a type of html document 
+Answer:-html element define by start tag ,some content, and an end tag
+        <tagname>content</tagname>
          
