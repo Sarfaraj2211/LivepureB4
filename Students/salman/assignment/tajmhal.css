@@ -1,0 +1,17 @@
+.container {
+    margin: 150px auto;
+    width: 50%;
+    padding: 8px;
+    background-color: rgb(231, 191, 191);
+}
+
+img {
+    float: right;
+    width: 330px;
+    height: 570px;
+    padding: 0 10px 0 0;
+}
+
+span {
+    color: crimson;
+}
