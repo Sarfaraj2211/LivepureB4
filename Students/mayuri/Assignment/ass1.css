@@ -11,11 +11,15 @@
 
 #tajHeading{
     background-color: rgb(136, 79, 79);
+    border: 10px double red;
     margin: black 50px;
 }
 
 .tajContent{
     background-color: rgb(106, 67, 67);
+    border: 5px solid rgb(red, green, blue);
+    width: 1400px;
+    text-align: right;
 }
 
 /* .tajMahalArc{
