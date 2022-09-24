@@ -1,5 +1,8 @@
 1) What are style sheets?
-Answer:-
+Answer:- cascading style sheets standing for css, that are three types of style sheets 
+1)inline css : which is used in tag 
+2)internal css: that css is used in the head tag in html page
+3)external css: external css is link to html page via link in head tag
 
 2) Write an HTML table tag sequence that outputs the following:
 O/p:-
@@ -14,8 +17,20 @@ Answer:-
 
 
 4)  What is a marquee?
-Answer:-
+Answer:- marquee is srolling bar that we creating in css with the help of marquee tag 
+    ex.<marquee class="rotetion" behavior="" direction="left">hello world</marquee>
 
 
 5) Name few new tags included in the HTML 5 ?
-Answer:-
+Answer:- <small></small>, <pre></pre>,<hr>,<bdo>,<address>
+
+6) How to add any webpage inside our webpage?
+Answer:- we add any web page inside our webpage using <iframe></iframe> tag
+
+7)List out block level and inline tag
+Answer:- 1)blocl level : <h1></h1> to <h6></h6>,<hr>,<marquee></marquee>,<p></p>.
+        2) inline tag: <br>,<span></span>, <i></i>, formating tags are inline
+
+8) what is element?
+Answer:- elements defines by start tag,some contents and end tags.
+    syntax: <tagname> contents </tagname>
