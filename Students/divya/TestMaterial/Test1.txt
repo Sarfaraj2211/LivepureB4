@@ -1,0 +1,22 @@
+
+1) what is block level element ?
+
+
+
+
+2)What is Css ?
+
+
+
+
+3) how to add border with h1 tag?
+
+
+
+
+4) what is semantic and non - semantic element?
+
+
+
+
+5) what is attribute ? which is by default attribute of tag ? example.
