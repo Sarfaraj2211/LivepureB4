@@ -1,0 +1,12 @@
+img{
+    height: 200px;
+    width: 250px;
+}
+h1:hover{
+    color:brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+}
+img:hover{
+color: red;
+}
