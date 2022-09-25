@@ -1,0 +1,65 @@
+/* p{
+    color: red;
+}
+h1{
+    color: #92ff00;
+    background-color: burlywood;
+    border: 10px groove red;
+} */
+
+/* Restting of css */
+/* body,
+h1 {
+  padding: 0px;
+  margin: 0px;
+} */
+
+/* Normalized in css */
+/* h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
+
+h1 {
+  /* background-color: rgb(240, 73, 6); */
+  opacity: 1;
+  color: red;
+  /* 1% to 100% */
+  /* 0.1 to 1 */
+}
+
+.background-property {
+  background-color: aqua;
+  opacity: 0.5;
+}
+
+#bg-color {
+  background-color: red;
+}
+
+/* #divParaDetail {
+  background-color: red;
+  background-image: url('./../../image/6.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+} */
+
+h1 {
+  background-image: url('./../../image/6.jpg');
+  background-repeat: no-repeat;
+  /* background-position: right top; */
+  /* background-position: right bottom; */
+}
+
+#logo{
+    background-image: url('./../../image/1.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-position: right top; */
+  /* background-position: right bottom; */
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./../../image/1.jpg">
+
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid green;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        span {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>Block level</th>
+                <th>Inline Element</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <ol>
+                        <li>
+                            it cover complete width
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>
+                            it will cover only text area
+
+                        </li>
+                    </ol>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <ol start="2">
+                        <li>
+                            it will <span> start </span> from new line
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ol start="2">
+                        <li>
+                            it will start in same line
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ol start="3">
+                        <li>
+                            Ex:- div,h1,p
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ol start="3">
+                        <li>
+                            Ex of inline:- b,img,span,all formating tag
+
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2" style="background-color: aqua;">
+                    Semantic and Non - Semantic
+                </th>
+            </tr>
+
+            <tr>
+                <th>Semantic</th>
+                <th>Non - Semantic</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <ol>
+                        <li>Meaning full tag</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>Meaningless tag</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ol start="2">
+                        <li>
+                            Ex of Semantic:- table,form,head,body,footer
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ol start="2">
+                        <li>
+                            Ex of Non semantic:- p,h1,b,em,tr,td
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div>
+        <h1>Tag which is not supported in HTML 5</h1>
+        <acronym title="WORLD">WHO</acronym>
+        <abbr title="WORLD">WHO</abbr>
+
+        <p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+        <kbd>CTRL + P</kbd>
+    </div>
+
+</body>
+
+
+</html>
