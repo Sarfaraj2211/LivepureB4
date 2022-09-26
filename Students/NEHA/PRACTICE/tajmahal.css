@@ -1,12 +1,7 @@
-img{
-    height: 200px;
-    width: 250px;
+
+.centre{
+    text-align: center;
 }
-h1:hover{
-    color:brown;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:50px;
-}
-img:hover{
-color: red;
+p{
+    color:blue;
 }

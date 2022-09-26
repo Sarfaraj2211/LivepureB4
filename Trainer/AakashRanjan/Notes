@@ -1,0 +1,15 @@
+click terminal---> open new terminal
+follow per day for git pull
+click terminal ----> open new terminal
+follw per day for git pull
+git pull ---> to get latest code from the repository
+
+
+for pushing code
+1) git add .    ---->add all file which need to push on repo
+2) git commit -m "message"
+
+ex:-
+git commit -m "created registration and login page"
+3) git pull ---> to get latest code from the repository
+4) git push -----> to push our code changes from local to git repojitry.

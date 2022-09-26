@@ -1,0 +1,42 @@
+1) What are style sheets?
+Answer:-style sheet is a file of the current html page through style sheet tells the web page what to pwrform
+
+2) Write an HTML table tag sequence that outputs the following:
+O/p:-
+NAME  MOBILE No   Address
+Mohan 123456        India 
+
+Answer:-<table>
+        <tr>
+        <th>name</th>
+         <th>mobile</th>
+          <th>address</th>
+          </tr>
+          <tr>
+          <td>mohan</td>
+          <td>12345</td>
+          <td>us</td>
+
+3)Can a single text link point to two different web pages?
+Answer:-no,
+
+
+
+4)  What is a marquee?
+Answer:-marquee is the tag to give special movement on the text or image,like moving text or vimage in four position thatb is up,down,right,left including behaviour of the content.
+ <marquee behaviour="scroll" position="left"> this is my marquee effect</marquee>
+
+5) Name few new tags included in the HTML 5 ?
+Answer:-<form><footer>
+
+
+6) How to add any webpage inside our webpage?
+Answer:-we can add a web page inside a web page via applying link to that url. For this we can use the anchor tag <a href://wwww.google.com>google</a>
+
+7)List out block level and inline tag
+Answer:-
+inline tag:-<b><abbr><i><br>
+block level:-<p><div><h1>-<h6><li><ol>
+8) what is element?
+
+Answer:-element are called the content of html . 
