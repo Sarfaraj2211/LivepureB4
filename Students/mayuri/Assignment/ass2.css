@@ -5,7 +5,7 @@
 
 
      } */
-.div1 {
+.iframeSection{
     color: black;
     text-align: center;
     font-size: 30px;
@@ -13,25 +13,22 @@
 
 }
 
-.div2 {
-    background-image: url(./../image/roseFlower.gif);
-}
+.iframeBlock {
 
-.iframeDivBlock {
+    background-image:url(./../image/Screenshot\ \(28\).png);
+    border: 20px solid rgb(5, 50, 10);
+    margin:70px;
+    padding: 30px;
+    background: size 1px;;
+    box-shadow: 20px 20px 10px rgb(237, 9, 9);
+    box-shadow: 1px 2px 10 rebeccapurple;
 
-    text-align: center;
-
-
+    
 }
 
 .bodyImage {
-    background-image: url('./../image/2.jpg');
+    background-image: url('./../image/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-/* .iframeBlock {
-    height: 300px;
-    width: 700px;
-
-} */
