@@ -15,7 +15,7 @@ git commit -m "created registration and login page"
 
 html element = st + content + end tag
 
-nested element:-
+5) nested element:-
            html
                head
                    meta
@@ -25,3 +25,21 @@ nested element:-
                     p
                     h1
                        b -->
+
+                       
+  6)  <!-- attribute:- extra than tag.It providing additional information -->
+
+
+    <!-- style=   "color: red;"
+       property:value -->
+
+       
+7) /* NORMALIZE :- bydefault value*/
+
+
+/* DOM  :- Document object Model
+POM   :-  PAGE OBJECT MODEL
+WOM   :-    WINDOW OBJECT MODEL
+
+Source Code
+*/
