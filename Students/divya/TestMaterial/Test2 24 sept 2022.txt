@@ -12,7 +12,7 @@ Mohan 123456        India
 Answer:-
 
 3)Can a single text link point to two different web pages?
-Answer:-
+Answer:-No,
 
 
 
