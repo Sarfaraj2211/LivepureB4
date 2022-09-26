@@ -460,11 +460,13 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+  color:red;
 }
 
 @media (max-width: 1200px) {
   .display-4 {
     font-size: calc(1.475rem + 2.7vw) ;
+    
   }
 }
 

@@ -69,10 +69,11 @@ body {
 transform: scaleX(-1);}
 
 .column.middle {
-  background-image: url(./../../../Trainer/image/background3.jfif);
+  background-image: url(./../img/image/background1.jpg);
+  background-repeat: no-repeat;margin: 5px;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  width: 59%;
+  width: 58%;
 
 }
 
