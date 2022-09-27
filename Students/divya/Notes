@@ -19,32 +19,11 @@ git commit -m "created registration and login page"
 4) git push -----> to push our code changes from local to git repojitry.
 
 
-<<<<<<< HEAD
-
-=======
-----------------------------------------------------------------------------------------
-Shortcut Key of vs code:-
-1) globally search :- ctrl + shift + f
-2) page level search :- ctrl + f
-3) find and replace or search and replace:- ctrl + H
-
-<<<<<<< HEAD
-5) nested element:-
-           html
-               head
-                   meta
-                   title
-                body
-                    h1
-                    p
-                    h1
-                       b -->
 
                        
   6)  <!-- attribute:- extra than tag.It providing additional information -->
 
-
-    <!-- style=   "color: red;"
+  <!-- style=   "color: red;"
        property:value -->
 
        
@@ -57,7 +36,76 @@ WOM   :-    WINDOW OBJECT MODEL
 
 Source Code
 */
+
+target value : 
+         1) blank 
+          2)top 
+         3) parent
+          4)self
 =======
+<!-- id:- one tag one id
+    same id name we can't pass in multiple tag.
+    <span id="headBannerText">helllo</span>
+    <h1 id="headBannerText">This is banner Text</h1>
+    target id with #   
+
+    class:-in one class we can write multiple class name.
+    class="commonBorder color"
+    target class name with (.)
+    best ways:-write css with class 
+
+css priority wise id, class and tag:-
+1st pri:- id
+2nd pri :- class
+3rd prio:- tag
+
+bydefault attri:- style,title,id,class
+
+-->
+
+
+<!-- 
+<h1>
+    <p>
+        <b>
+            <pre>
+              <h6>
+                  <span>
+                      <i><em>
+                          <marquee behavior="" direction=""></marquee>
+                      <ins>
+                          <del>
+                              <sup>
+                                  <sub>
+                                      <abbr title="">
+
+                                      </abbr>
+                                  </sub>
+                              </sup>
+                          </del>
+                      </ins>
+                        </em></i>
+                  </span>
+              </h6>  
+            </pre>
+        </b>
+    </p>
+</h1> -->
+
+
+
+<<<<<<< HEAD
+
+=======
+----------------------------------------------------------------------------------------
+Shortcut Key of vs code:-
+1) globally search :- ctrl + shift + f
+2) page level search :- ctrl + f
+3) find and replace or search and replace:- ctrl + H
+
+<<<<<<< HEAD
+
+                       
 ----------------------------------------------------------------------------------------
 4) Hard refresh browser window :- shift + f5 or  ctrl + shift R 
 
