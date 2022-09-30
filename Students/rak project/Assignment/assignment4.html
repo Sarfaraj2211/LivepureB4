@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment1.css" />
+</head>
+<body>
+<!--     
+All CSS Pseudo Elements
+Selector	Example	Example description
+::after
+p::after	Insert content after every <p> element
+::before
+p::before	Insert content before every <p> element
+::first-letter
+p::first-letter	Selects the first letter of every <p> element
+::first-line
+p::first-line	Selects the first line of every <p> element
+::selection
+p::selection	Selects the portion of an element that is selected by a user -->
+<style>
+    p::after{
+        content: " i am from samstipur";
+        font-weight:bold;
+        color: brown;
+    }
+
+    p::before{
+        content: " i ma persuing MCA";
+        font-weight:bold;
+        color: rgb(18, 219, 41);    
+    }
+    h2::first-letter{
+        font-size: 38px;
+        color:rgb(226, 8, 8);
+        font-weight: bold;
+        padding: 10px;
+        margin:5px;
+    }
+    h6::first-line{
+        font-weight: bold;
+        color: springgreen;
+        text-transform: uppercase;
+    }
+    ::selection{
+        color:blue;
+        background-color: chartreuse;
+    }
+</style>
+<p>My name is rakesh sharma</p>
+<p>my best friend is shishupal</p>
+
+<h2>I am form Aurangabad</h2>
+<h2>ECOURSES</h2>
+
+<h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</br>
+     Sed fugit voluptatum dolore corrupti ea, qui voluptate laborum</br>
+      officiis perferendis rem quis veritatis enim iste hic obcaecati</br>
+       ut id optio fuga?</h6>
+</body>
+</html>
