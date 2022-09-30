@@ -1,0 +1,26 @@
+.tajImg{
+
+    background-color:black;
+}
+
+.tajArc{
+    background-color: burlywood;
+    color: brown;
+    text-shadow: 3px 5px 5px #50a236;
+    
+}
+
+#tajHeading{
+    background-color: rgb(136, 79, 79);
+    border: 10px double rgb(174, 40, 40);
+    margin: black 50px;
+}
+
+.tajContent{
+    background-color: rgb(106, 67, 67);
+    border: 5px solid rgb(red, green, blue);
+    width: 1400px;
+    text-align: center;
+}
+
+ 

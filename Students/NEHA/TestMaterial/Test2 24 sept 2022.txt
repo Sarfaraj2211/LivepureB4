@@ -1,0 +1,21 @@
+1) What are style sheets?
+Answer:-
+
+2) Write an HTML table tag sequence that outputs the following:
+O/p:-
+NAME  MOBILE No   Address
+Mohan 123456        India 
+
+Answer:-
+
+3)Can a single text link point to two different web pages?
+Answer:-
+
+
+
+4)  What is a marquee?
+Answer:-
+
+
+5) Name few new tags included in the HTML 5 ?
+Answer:-
