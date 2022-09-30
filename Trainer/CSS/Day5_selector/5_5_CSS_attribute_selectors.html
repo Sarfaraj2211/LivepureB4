@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <style>
+        /* attribute */
+        a[target] {
+            background-color: red;
+        }
+
+        /* attribute = value */
+        a[target=_blank] {
+            background-color: rgb(158, 240, 125);
+        }
+
+        a[target=_top] {
+            background-color: rgb(21, 161, 196);
+        }
+
+        a[target="_parent"] {
+            background-color: rgb(231, 94, 94);
+        }
+
+        a[target="_self"] {
+            background-color: rgb(241, 15, 185);
+        }
+
+        /* a[id] {
+            background-color: rgb(0, 245, 131);
+        } */
+    </style>
+    <img src="./../../image/3.jpg" alt="" height="" width="">
+    <br>
+
+    <a href="" target="_blank" class="">click Me</a>
+    <a href="" id="" target="_top" class="">click Me</a>
+    <a href="" id="" target="_parent" class="">click Me</a>
+    <a href="" id="" target="_self" class="">click Me</a>
+
+
+    <!-- <a href="" id="" class="">click Me</a>
+    <a href="" id="" class="">click Me</a> -->
+
+    <br>
+
+    <style>
+        /* input[type] {
+            background-color: rgb(235, 20, 20);
+        } */
+
+        /* input[type=text] {
+            background-color: rgb(166, 216, 119);
+        }
+
+        input[type=password] {
+            background-color: rgb(29, 201, 253);
+        }
+
+        input[type=number] {
+            background-color: rgb(64, 124, 62);
+        } */
+
+        /* input[placeholder="Enter password"] {
+            background-color: rgb(64, 124, 62);
+            color: red;
+        } */
+
+
+
+        .inp1 {
+            color: blue;
+            background-color: burlywood;
+            border-radius: 10px 0 10px 0;
+            height: 50px;
+            width: 500px;
+            font-size: 30px;
+        }
+
+        .inp2 {
+            color: gold;
+            background-color: rgb(85, 221, 43);
+        }
+
+        .inp3 {
+            color: hotpink;
+            background-color: chocolate;
+        }
+
+        .inp1::placeholder {
+            color: yellow;
+            background-color: gray;
+
+        }
+
+        .inp2::placeholder {
+            color: red;
+            background-color: aqua;
+        }
+
+        .inp3::placeholder {
+            background-color: blue;
+            color: green;
+        }
+    </style>
+
+    <input type="text" maxlength="10" class="inp1" placeholder="Enter name">
+    <input type="password" class="inp2" placeholder="Enter password">
+    <input type="number" class="inp3" placeholder="Enter mobile no">
+
+
+</body>
+
+</html>
