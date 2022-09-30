@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sel.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <!-- class     :
+element   :: -->
+    <style>
+        h1:first-line {
+            background-color: yellow;
+        }
+
+        h1:first-letter {
+            background-color: red;
+        }
+
+        h1::after {
+            /* content: url(./../../image/3.jpg); */
+            content: "Hello";
+           
+            /* background-color: red;   */
+            background-color: aquamarine;
+        }
+    </style>
+
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium numquam totam porro culpa explicabo
+        eveniet cupiditate, adipisci, blanditiis pariatur autem inventore cum voluptatum et. </h1>
+
+
+
+
+    <h1>This is a heading</h1>
+    <p>The ::after pseudo-element inserts content after the content of an element.</p>
+    <h1>This is a heading</h1>
+
+
+</body>
+
+</html>
