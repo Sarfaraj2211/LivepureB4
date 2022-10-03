@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formBlock {
+            border: 2px solid red;
+            width: 350px;
+            padding: 20px;
+            margin: 20px 0 0 20px;
+            background-color: rgb(146, 157, 157);
+            border-radius: 20% 0 20% 0;
+            font-size: 20px;
+            /* border-radius: 10px 0 50px 0; */
+        }
+
+        input[type] {
+            border-radius: 10px 0 10px 0;
+        }
+
+        
+        label[for]{
+            color: rgb(252, 57, 8);
+        }
+
+        button[id=subBtn]{
+            background-color: yellow;
+            border-radius: 20px;
+            width: 100%;
+            height:5vh;
+        }
+
+        button[id=subBtn]:hover{
+            background-color: rgb(244, 22, 22);
+        }
+       /* .nName{
+        background-color: rgb(242, 207, 213);
+       } */
+       ::placeholder{
+        background-color: rgb(242, 207, 213);
+       }
+    </style>
+</head>
+
+<body>
+    <div id="formBlock" class="formBlock">
+        <form action="" id="formSection" class="formSection">
+            <h1 id="formTitle">Registration Form</h1>
+
+            <!-- name block -->
+            <div id="formNameBlock">
+                <label id="lblFormName" for="inputFormName">Name</label>
+                <input type="text" id="inputFormName" class="nName" placeholder="Enter Name" autofocus>
+            </div>
+            <!-- <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div> -->
+            <br>
+
+            <!-- Email block -->
+            <div id="formEmailBlock">
+                <label id="lblFormEmail" for="inputFormEmail">Email</label>
+                <input type="email" placeholder="Enter Email" id="inputFormEmail" autocomplete="off">
+            </div>
+            
+            <br>
+
+            <!-- contact block -->
+            <div id="formContactBlock">
+                <label id="lblFormContact" for="inputFormContact">Contact</label>
+                <input type="number" placeholder="Enter Contact" id="inputFormContact">
+            </div> <br>
+
+            <!-- password block -->
+            <div id="formPasswordBlock">
+                <label id="lblFormPassword" for="inputFormPassword">Password</label>
+                <input type="password" placeholder="Enter Password" id="inputFormPassword">
+            </div> <br>
+     
+            <!-- button block -->
+            <div id="formSubmitBtnBlock">
+                <!-- <input type="button" id="btnSubmit" value="type button"> -->
+                <!-- no reload of page -->
+
+                <button id="subBtn">Submit</button>
+                <!-- reload of page -->
+
+                <!-- <input type="submit" id="btnSubmit" value="type Submit"> -->
+                <!-- reload of page -->
+            </div>
+           
+        </form>
+       
+    </div>
+<br>
+<!-- checkbox -->
+    <div>
+        
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+        
+       </div>
+       <br>
+       <!-- radio button -->
+       <div>
+        
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language"
+            value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            
+       </div><br>
+       <div>
+        <!-- fieldset and legend -->
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+            </fieldset>
+       </div>
+       <br>
+       <!-- datalist -->
+       <div>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            </datalist>
+       </div>
+</body>
+
+</html>
