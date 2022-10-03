@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .formBlock{
+            background-color: bisque;
+            border: double 10px  rgb(107, 53, 53);
+            height: 500px;
+            width: 400px;
+            padding: 20px;
+            margin-left: 20px;
+        }
+        input[type] {
+            border-radius: 5px;
+        }
+
+        #formTitle{
+            background-color: cadetblue;
+            text-align: center;
+        }
+
+        label[for]{
+            color: brown;
+            background-color: rgb(228, 204, 50);
+            /* padding: 20px; */
+        }
+
+        button[id=subBtn]{
+            background-color: rgb(4, 69, 131);
+            border-radius: 20px;
+            width: 100%;
+            height:5vh;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="formBlock" class="formBlock">
+        <form action="" id="formSection" class="formSection">
+            <h1 id="formTitle">Registration form</h1>
+
+            <div id="formNameBlock">
+                <label for="formName" id="lblFormName">Name</label><br><br>
+                <input type="text" id="formName" placeholder="Enter Name">
+            </div>
+            <br>
+
+            <div id="formContactBlock">
+                <label id="lblFormContact" for="formContact">Contact</label><br><br>
+                <input type="Contact" id="formContact"  placeholder="number">
+            </div>
+            <br>
+
+            <div id="formNumberBlock ">
+                <label id="lblFormNumber" for="formNumber">Number</label><br><br>
+                <input type="number" id="formNumber" placeholder="Enter Number">
+            </div>
+            <br>
+
+            <div id="formEmailBlock">
+                <label id="lblFormEmail" for="formEmail">Email</label><br><br>
+                <input type="email" id="formEmail" placeholder="Enter Email">
+            </div>
+            <br><br>
+
+            <div id="formSubmitBlock">
+                <button id="subBtn">Submit</button>
+            </div>
+
+
+
+        </form>
+    </div>
+</body>
+</html>

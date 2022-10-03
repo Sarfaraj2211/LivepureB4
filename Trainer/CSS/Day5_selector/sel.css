@@ -1,0 +1,49 @@
+/* input[type='text']:disabled {
+  background: #db8080;
+} */
+
+/*  */
+/* input:focus {
+  background-color: yellow;
+} */
+/*  */
+
+/* input:in-range {
+  border: 2px solid yellow;
+} */
+
+/*  */
+/* p:last-of-type {
+  background: #ff0000;
+} */
+
+/*  */
+/* 
+p {
+  color: #000000;
+}
+
+:not(p) {
+  color: #ff0000;
+} */
+
+/* Selects the second element of div siblings */
+div:nth-child(2) {
+  background: red;
+}
+
+/* Selects the second li element in a list */
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+/* Selects every third element among any group of siblings */
+:nth-child(3) {
+  background: yellow;
+}
+/* :hover {
+  background-color: red;
+} */
+/* body{
+    height: 2000px;
+} */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* a {
+            color: red;
+        } */
+
+        /* before clicking, initial stage */
+        a:link {
+            color: rgb(33, 248, 14);
+            background-color: aqua;
+            border: 2px solid red;
+        }
+
+        a:active {
+            color: rgb(19, 1, 4);
+            background-color: rgb(25, 238, 17);
+            border: 2px solid rgb(233, 7, 214);
+        }
+
+        a:visited {
+            color: rgb(245, 69, 0);
+            background-color: rgb(42, 9, 230);
+            border: 2px solid rgba(156, 45, 156, 0.555);
+        }
+
+        /* 
+        div {
+            background-color: green;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        div:hover {
+            color: aqua;
+            background-color: blue;
+        } */
+
+
+        p {
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+       div:hover p{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Styling a link depending on state</h2>
+
+    <p>
+        <b>
+            <a href="https://www.google.com/" target="_blank">This is a link</a>
+            <a href="#">test</a>
+            <a href="./1.html">test 2</a>
+            <a href="./3.html">test 3</a>
+        </b>
+    </p>
+
+    <!-- <div>Mouse Over Me</div> -->
+
+
+    <div>Hover over this div element to show the p element
+        <p>Tada! Here I am!</p>
+    </div>
+
+
+    <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+    <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+
+</html>
