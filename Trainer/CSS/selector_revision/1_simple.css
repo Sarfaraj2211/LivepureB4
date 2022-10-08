@@ -1,0 +1,51 @@
+/* tag */
+/* h1 {
+  background-color: red;
+}
+p {
+  background-color: green;
+} */
+
+/* id - # */
+
+/* #head3 {
+  background-color: aqua;
+}
+#head4 {
+  color: white;
+} */
+
+/* class - . */
+/* 
+.head2 {
+  background-color: yellow;
+}
+
+.bgColor {
+  background-color: brown;
+}
+
+.bgColorRed {
+  background-color: red;
+}
+
+.fontColor {
+  color: white;
+} */
+
+/* mix all tag,class,id */
+
+/* .mix {
+  background-color: red;
+} */
+
+p,
+.h1,
+#h1 {
+  background-color: red;
+}
+
+/* universal selector */
+/* * {
+  border: 2px solid red;
+} */
