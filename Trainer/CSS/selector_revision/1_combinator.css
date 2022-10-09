@@ -1,0 +1,12 @@
+section p {
+  background-color: red;
+}
+
+/* id and id */
+#id1 #id2 {
+}
+
+/* id and class */
+#id3 .class1 {
+  background-color: rebeccapurple;
+}
