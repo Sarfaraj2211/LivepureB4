@@ -44,6 +44,90 @@ for delete temp file from laptop:-
 
 
 
+target value : 
+         1) blank 
+          2)top 
+         3) parent
+          4)self
+
+
+
+           id:- one tag one id
+    same id name we can't pass in multiple tag.
+    <span id="headBannerText">helllo</span>
+    <h1 id="headBannerText">This is banner Text</h1>
+    target id with #   
+
+    class:-in one class we can write multiple class name.
+    class="commonBorder color"
+    target class name with (.)
+    best ways:-write css with class 
+
+css priority wise id, class and tag:-
+1st pri:- id
+2nd pri :- class
+3rd prio:- tag
+
+bydefault attri:- style,title,id,class
+h1>
+    <p>
+        <b>
+            <pre>
+              <h6>
+                  <span>
+                      <i><em>
+                          <marquee behavior="" direction=""></marquee>
+                      <ins>
+                          <del>
+                              <sup>
+                                  <sub>
+                                      <abbr title="">
+
+                                      </abbr>
+                                  </sub>
+                              </sup>
+                          </del>
+                      </ins>
+                        </em></i>
+                  </span>
+              </h6>  
+            </pre>
+        </b>
+    </p>
+</h1>
+
+
+
+Combinator
+
+    There are four different combinators in CSS:
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~) (tilt symbol)
+
+
+   **** Anchor tag stages:-
+
+    a:link     (before clicking, initial stage) 
+ 
+    a:active 
+
+    a:visited 
+
+    a:hover,******
+
+
+
+    <li>Inline CSS</li>
+        <li>Internal Css</li>
+        <li>External Css</li>
+    
+
+
+
+
+
 
 g1:- divya/mayuri  ----  HOME
 g2:- sajid / yaqub / Nitish  ---- ABOUT  

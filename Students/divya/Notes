@@ -19,6 +19,19 @@ git commit -m "created registration and login page"
 4) git push -----> to push our code changes from local to git repojitry.
 
 
+  <!-- 
+    <b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<blockquote> -add space in front text-->
+
 
                        
   6)  <!-- attribute:- extra than tag.It providing additional information -->
