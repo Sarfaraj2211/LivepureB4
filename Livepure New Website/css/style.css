@@ -9514,6 +9514,7 @@ button.bg-dark:focus {
   font-weight: 700 !important;
 }
 
+
 .font-weight-bolder {
   font-weight: bolder !important;
 }
@@ -9959,4 +9960,17 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+
+.training{
+  border: 2px solid transparent;
+  width:100%;
+}
+
+.besant_tech{
+  border: 1px solid transparent;
+  width: 85%;
+  margin-left: 110px;
 }
