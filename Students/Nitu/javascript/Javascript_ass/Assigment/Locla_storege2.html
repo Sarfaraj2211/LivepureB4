@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <h2>Local Storege page</h2>
+    <form action="">
+        <span id="stname"></span><br>
+        <label for="snam">Student Name</label>
+        <input type="text" id="snam" placeholder="studen name"><br>
+        <span id="mark"></span><br>
+        <label for="smark">Student Marks</label>
+        <input type="number" id="smark" placeholder="studen Mark"><br>
+        <input type="submit" id="btn" onclick="return myform2()" value="submit">
+    </form>
+</body>
+
+<script>
+    function myform2() {
+        let studentname = document.getElementById("snam").value;
+        let value = document.getElementById("smark").value;
+        
+        if (studentname == "") {
+            document.getElementById("stname").innerHTML = "** please fill the Name"
+            return false
+        }
+        if (value == "") {
+            document.getElementById("mark").innerHTML = "** please fill the Marks"
+            return false
+        }
+        localStorage.setItem(`${studentname}`, `${value}`);
+    }
+</script>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head1 {
+            text-align: center;
+        }
+
+        #id1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h2 style="text-align: center;">Array sorting alphabetically,numerically and reverse.</h2>
+
+    <h1 id="head1"></h1>
+    <script>
+        let x = [30, 120, 5, 7, 64, 19];
+
+        document.getElementById("head1").innerHTML = x;
+
+
+        function Fun1() {
+            x.sort();
+            document.getElementById("head1").innerHTML = x;
+        }
+        function Fun2() {
+            x.sort(function (a, b) { return a - b });
+            document.getElementById("head1").innerHTML = x;
+        }
+        function Fun3() {
+            x.reverse();
+            document.getElementById("head1").innerHTML = x;
+
+        }
+
+    </script>
+    <div id="id1">
+        <button onclick="Fun1()" style="background-color:aqua; font-weight: bold;padding: 25px;">Array sort
+            alphabetically</button>
+        <button onclick="Fun2()" style="background-color:chartreuse ; font-weight: bold;padding: 25px;">Array sort
+            Numerically</button>
+        <button onclick="Fun3()"
+            style="background-color:rgb(226, 205, 43) ; font-weight: bold;padding: 25px;padding-right: 80px;">Array
+            reverse</button>
+    </div>
+
+
+</body>
+
+</html>

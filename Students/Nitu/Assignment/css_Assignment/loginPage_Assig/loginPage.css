@@ -1,0 +1,37 @@
+.second{
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    background-color: aliceblue;
+
+}
+.second h1{
+    color: aqua;
+   font-size: 25px;
+}
+.div input{
+    width: 200px;
+    height: 30px;
+}
+#btn{
+    width: 200px;
+    height: 30px;
+    background-color: hsla(210, 100%, 50%, 0.899);
+}
+.first{
+    border: 1px solid blue;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    padding: 100px;
+    margin-top: 80px;
+
+    background-color: rgb(17, 154, 208);
+}
+.body{
+    background-image: linear-gradient(blue,red);
+    height: 700px;
+}
