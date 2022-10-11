@@ -41,6 +41,15 @@
 *::after {
   box-sizing: border-box;
 }
+/* New changes */
+.centerImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 40px;
+  
+}
 
 html {
   font-family: sans-serif;
@@ -190,7 +199,7 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
-
+/* d */
 img {
   vertical-align: middle;
   border-style: none;
