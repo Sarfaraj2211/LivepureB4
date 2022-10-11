@@ -50,7 +50,11 @@ button span::before{
 }
 *,
 *::after.
+<<<<<<< HEAD
 *::before{
+=======
+*::after{
+>>>>>>> c978418190ed300a5eea365d9fd6a0a51c968f8f
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
