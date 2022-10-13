@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* tr:hover {
+            background-color: yellow;
+        } */
+
+        tr:nth-child(even) {
+            background-color: yellowgreen;
+        }
+
+
+
+        tr:nth-child(odd) {
+            background-color: red;
+        }
+
+        table,
+        th,
+        td {
+            /* border: 2px solid red; */
+            border-bottom: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+
+        table,
+        td {
+            height: 100px;
+            width: 100px;
+
+        }
+
+
+        td,
+        th {
+            /* text-align: right; */
+            text-align: center;
+            /* text-align: left; */
+            /* padding: 100px; */
+        }
+
+        /* .tdDesc{
+            height: 250px;
+            width: 100px;
+            background-color: red;
+        } */
+
+        table {
+            width: 100%;
+        }
+
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+
+        td {
+            /* vertical-align: bottom; */
+            vertical-align: middle;
+            /* vertical-align: top; */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- tag which can't use in html 5:- <center>
+        <big>
+            <acronym title="">
+
+            </acronym>
+        </big>
+    </center> -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>class</th>
+            <th>roll No</th>
+            <th>Photo</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/10.jpg" alt="">
+            </td>
+            <td class="tdDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est tempore quia non corporis
+                eveniet harum
+                consectetur nihil aperiam quaerat. Repellat dicta necessitatibus harum veniam maiores?</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/1.jpg" alt="">
+            </td>
+            <td>l2</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/2.jpg" alt="">
+            </td>
+            <td>l3</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/3.jpg" alt="">
+            </td>
+            <td>l3</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/4.jpg" alt="">
+            </td>
+            <td>l3</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/3.jpg" alt="">
+            </td>
+            <td>l3</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>2nd</td>
+            <td>102</td>
+            <td>
+                <img src="./../../image/4.jpg" alt="">
+            </td>
+            <td>l3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
