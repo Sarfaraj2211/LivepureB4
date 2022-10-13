@@ -48,8 +48,6 @@ button span::before{
 :root{
     --font-style:'Nunito Sans',sans-serif;
 }
-*,
-*::after,
 *::after{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" placeholder="enter your firstName" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" placeholder="enter your LastName" name="lname">
+
+        <br><br>
+        <input type="button" value="submit" onclick="formData()">
+        <!-- <button>Button</button>
+        <input type="submit"> -->
+        <h1 id="fnameValue" style="color: rgb(235, 31, 0);">Your Result</h1>
+
+
+
+
+    </form>
+
+    <script>
+        function formData() {
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+
+                 document.getElementById("fnameValue").innerHTML = `My First name is 
+                <span style="color: green">${fname}</span>  
+              <br>  My Last name is  <span style="color: pink">${lname}</span>`
+
+
+
+           // document.getElementById("fnameValue").innerHTML =
+              //  `<table>
+           // <tr>
+               // <td>${fname}</td>
+               // <td>${lname}</td>
+           // </tr>
+            //<tr>
+               // <td>${fname}</td>
+               // <td>${lname}</td>
+           // </tr>
+       // </table>`
+
+            localStorage.setItem("first name", fname)
+            localStorage.setItem("last name", lname)
+        }
+    </script>
+
+ 
+</body>
+</html>

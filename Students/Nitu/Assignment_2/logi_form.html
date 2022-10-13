@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <div class="div">
+            <label for="Name" id="lname"></label>
+            <input type="text" id="name" placeholder="Username">
+            <span id="sresult"></span>
+        </div>
+        <br>
+        <div class="div">
+            <label for="password"></label>
+            <input type="password" id="pwd" placeholder="password">
+
+            <br>
+
+            <button type="button" id="btn" onclick="myform()">Login</button>
+
+        </div>
+        <h2 id="hname" style="color: red;"> my name is name:-</h2>
+        <!-- <h1 id="hpass" style="color: rgb(13, 0, 255);">Password:-</h1> -->
+    </form>
+</body>
+<script>
+    function myform() {
+
+        let username = document.getElementById("name").value;
+        let password = document.getElementById("pwd").value;
+        document.getElementById("hname").innerHTML = `My name is :-<span style="color: yellow;">${username}</span> <br> Password is :-
+       <span style="color:black">${password}</span>`
+        // document.write(hname+username);   
+    }
+</script>
+
+</html>
