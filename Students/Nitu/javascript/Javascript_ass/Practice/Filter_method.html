@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ages=[10,15,18,20,11,50];
+        console.log(ages);
+
+        var b= ages.filter(checkadult);
+        console.log(b);
+        //document.write();
+
+        function checkadult(age){
+            return age >= 18;
+        }
+        let arry=[
+        {
+            name:"ram",
+            position:"devloper"
+        },
+        {
+            name:"shyam",
+            position:"programmer"
+        },
+        {
+            name:"sita",
+            position:"programmer"
+        },
+        {
+            name:"mohan",
+            position:"devloper"
+        },
+        {
+            name:"sohan",
+            position:"devloper"
+        },
+        ];
+        let devloper = arry.filter(val => val.position == "devloper");
+       // function devlopers(){
+         // return position == "devloper";
+          console.log(devloper);  
+       // }
+    </script>
+</body>
+</html>

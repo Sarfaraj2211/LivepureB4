@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>1.)ram,mohan,ajay,shyam</h1>
+  <h3 id="string_sort"></h3>
+  <button onclick="stringsort()">String_short</button>
+  <h1>2.) 23,56,16,19</h1>
+  <h3 id="number_sort"></h3>
+  <button onclick="numbersort()">Number_sort</button>
+  <h1>3.) 23,56,16,19</h1>
+  <h3 id="reverse_method"></h3>
+  <button onclick="reverse()">Number_reverse</button>
+
+</body>
+<script>
+    function stringsort(){
+        let arry=["ram","mohan","ajay","shyam"];
+        
+        arry.sort();
+        document.getElementById("string_sort").innerHTML=arry;
+       
+    }
+    function numbersort(){
+        let number=[23,56,16,19];
+        number.sort();
+        document.getElementById("number_sort").innerHTML=number;
+        }
+        function reverse(){
+            let number=[23,56,16,19];
+            number.reverse();
+            document.getElementById("reverse_method").innerHTML=number;
+            }
+
+</script>
+</html>
