@@ -19,6 +19,12 @@ git commit -m "created registration and login page"
 4) git push -----> to push our code changes from local to git repojitry.
 
 
+
+
+resetting in css------>making zero ex:- padding,margin...
+normalise in css----> normal by default style value of tag ex:- margin,padding
+
+
   <!-- 
     <b> - Bold text
 <strong> - Important text
