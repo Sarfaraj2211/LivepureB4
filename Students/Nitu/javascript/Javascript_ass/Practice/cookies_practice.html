@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head1"> This is cookies class</h1>
+    <button onclick="fun1()">Click here</button>
+
+
+    <script>
+        function fun1() {
+            document.cookie = "username=Swapnil; expires=Wed, 29 Sep 2022 12:00:00 UTC";
+            let a = document.cookie;
+            document.getElementById("head1").innerHTML = a;
+        }
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head{
+            border: 3px solid black;
+            padding: 20px;
+            
+            margin-top: 100px;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+<body id="bdy">
+   <!-- h1 id="head">Thi<s is heading</h1>  -->
+</body>
+<script>
+    var i=0
+    var bgcolor=["red","blue","pink","yellow"];
+function animation(){
+    let animation=document.getElementById("bdy");
+    
+    animation.style.backgroundColor=bgcolor[i];
+    i=(i+1)% bgcolor.length;
+    for(i=0; i<bgcolor.length;i++){
+
+       console.log(bgcolor[i]);} 
+   } 
+setInterval( animation,2000);
+
+
+</script>
+</html>

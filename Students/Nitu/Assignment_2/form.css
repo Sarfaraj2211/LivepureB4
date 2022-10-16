@@ -1,0 +1,136 @@
+.body{
+    background-color: lawngreen;
+    /* text-align: center; */
+    border: 1px solid black; 
+      margin-left: 500px; 
+    margin-right: 400px ;
+}
+#nam{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);
+    margin-top: 3px;
+}
+#name{
+    
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;
+}
+#email_id{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);
+    margin-top: 3px;  
+}
+#email{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px; 
+}
+#phone{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172); 
+    margin-top: 3px; 
+}
+#num{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;  
+}
+#addr{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172); 
+    margin-top: 3px; 
+}
+#addrs{
+    margin-left: 70px;
+    width: 200px;
+    height: 50px;  
+}
+#post_cod{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);  
+    margin-top: 3px;
+}
+#post{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;    
+}
+#country_name{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172); 
+    margin-top: 3px; 
+   
+}
+#country{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px; 
+}
+#card_type{
+    border: 2px solid white;
+    /* padding: 5px; */
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172); 
+    margin-top: 3px;   
+}
+#card_nume{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);  
+    margin-top: 3px;   
+}
+
+#cardnum{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px; 
+}
+
+#name_crd{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);  
+    margin-top: 3px;     
+}
+#namcard{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;  
+}
+#Scurity_cod{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(206, 241, 172);  
+    margin-top: 3px;      
+}
+#security{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px; 
+}

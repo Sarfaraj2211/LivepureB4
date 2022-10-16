@@ -1,0 +1,102 @@
+#form{
+    text-align: center;
+    margin-top: -370px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    
+    
+
+}
+#h1{
+    bottom: -50px;
+    color: rgb(244, 165, 136);
+}
+#name{
+    border: none;
+    /* margin-top: 30px; */
+    padding: 10px;
+    width: 200px;
+    margin-left: 30px;
+     
+    
+}
+#emal{
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    /* margin-left: 30px; */
+    margin-right:0px;   
+    border: none;
+    display: inline-block;
+
+}
+#pas{
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 30px;
+    /* margin-right:22px ;  */
+    border-style:none ; 
+    display: inline-block;  
+}
+#sum{
+    margin-top: 10px;
+    padding: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 40px;  
+    background-color:rgb(255, 128, 0); 
+    color: white;
+}
+#check{
+    margin-top: 30px;
+    
+    
+    margin-left: -140px;
+    
+    display: inline-block;
+      
+}
+#lab_name{
+     margin-bottom:-20px; 
+     color:rgb(117, 117, 238);
+}
+#mail{
+    margin-right: 30px;
+    margin-left: 10px;
+    color:rgb(117, 117, 238);
+}
+#pra{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: -110px;
+color:rgb(117, 117, 238);
+
+}
+#hnme{
+    margin-left: 600px;
+    margin-right: 600px;
+    /* margin-top: 10px; */
+    background-color: rgb(233, 228, 228);
+    color:rgb(233, 228, 228) ;
+}
+#mhr{
+    margin-left: 600px;
+    margin-right: 600px;
+    color:rgb(233, 228, 228) ;
+}
+#phr{
+    margin-left: 600px;
+    margin-right: 600px;
+    color:rgb(233, 228, 228) ;
+/* color:rgb(117, 117, 238); */
+    
+}
+img{
+display: inline-block;
+margin-left: 95px;
+}
+#passw{
+color:rgb(117, 117, 238);
+
+}

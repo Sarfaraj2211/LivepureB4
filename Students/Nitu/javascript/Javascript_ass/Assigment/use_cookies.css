@@ -1,0 +1,71 @@
+form{
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 500px;
+    background-color: rgb(214, 224, 225);
+    
+}
+input{
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 10px;
+    /* margin-left: 80px;  */
+    width: 200px;
+    /* color: white; */
+}
+label{
+    margin-right: 20px;
+    margin-left: 20px;
+    /* color: white; */
+    font-size: 15px;
+    
+} 
+#emal{
+  margin-left: 35px;
+  /* background-color: rgb(206, 247, 247); */
+}
+#name{
+    margin-left: 50px;
+    /* background-color: rgb(206, 247, 247); */
+    font-size: 15px;
+}
+#dat{
+    margin-left: 40px;
+    /* background-color: rgb(206, 247, 247); */
+}
+#num{
+    margin-left: -10px; 
+    /* background-color: rgb(206, 247, 247);  */
+}
+#sum{
+    margin-left: 250px;  
+    width: 100px;  
+    margin-top: 30px;
+    /* background-color: rgb(206, 247, 247); */
+}
+span{
+    color: red;
+
+}
+#btn{
+    width: 100px;
+    margin-left: 200px; 
+    margin-top: 20px; 
+    border-radius: 15px;
+    padding: 7px;
+    /* margin-bottom: 5px; */
+    background-color: blue;
+    color: white;
+}
+#h1{
+    /* color: white; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.div_inp{
+    /* border: 1px solid white; */
+    padding: -20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}

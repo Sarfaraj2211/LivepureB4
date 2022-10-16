@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="global"> this is assignment</div>
+    <script>
+        var x = "global scope veriable decleration";
+        // using innerHTML
+        function myclass() {
+            document.getElementById('global').innerHTML = x;
+        }
+        myclass();
+        // using alert()
+        function myclass1() {
+            alert(x);
+        }
+        myclass1();
+// using console.log()
+        function myclass2() {
+            console.log(x);
+        }
+        myclass2();
+// using document.write()
+        function myclass3() {
+            document.write(x);
+           
+        }
+        myclass3();
+        
+    </script>
+
+</body>
+
+</html>

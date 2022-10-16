@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admissionForm.css">
+</head>
+
+<body>
+    <div id="form">
+        <h2>Admission Form</h2>
+        <form >
+            <div id="name">
+                
+                <span id="sname" style="color:red;"></span><br>
+                <label for="" id="lname" >Student Name</label>
+                <input type="text" name="" id="name1">
+            </div>
+            <div id="Fname1">
+                <span id="sfname"></span>
+                <label for="Fname" id="Fname2">Father Name</label>
+                <input type="text" name="" id="Fname">
+            </div>
+            <div id="email1">
+                <span id="semail"></span>
+                <label for="email" id="email2">Email id</label>
+                <input type="email" name="" id="email3">
+            </div>
+            <div id="mobilno1">
+                <span id="smobil"></span>
+                <label for="mobil no" id="mobil2">Mobile No</label>
+                <!-- <select name="code" id="">
+                    <option value="+91">+91</option>
+                    <option value="+92">IND +92</option>
+                    <option value="+93">IND +93</option>
+                    <option value="+94">IND +94</option>
+                    <option value="+95">IND +95</option>
+                </select> -->
+                <input type="number"name="" id="mobilno3">
+            </div>
+            <div id="dob1">
+                <span id="sdob"></span>
+                <label for="dob" id="dob2">Dob</label>
+                <input type="date" name="" id="dob3">
+            </div>
+            <div id="gen1">
+                <span id="sgen"></span>
+                <label for="" ><span id="gen">Gender</span></label>
+                Male <input type="radio" name="genger" id="male">
+                Female <input type="radio" name="genger" id="femal">
+            </div>
+            
+            <div id="clas1">
+                <span id="Sclas"></span>
+                <label for="clas2">Class</label>
+                <select name="" id="clas3">
+                    <option value="1">1st</option>
+                    <option value="2">2nd</option>
+                    <option value="3">3rd</option>
+                    <option value="4">4th</option>
+                    <option value="5">5th</option>
+                </select>
+            </div>
+            <!-- <div addrs1>
+                <label for="addrs2">Address</label>
+                <textarea name="" id="addrs3"></textarea>
+            </div>
+            
+           
+            
+            <div>
+                <label for="">Comment</label>
+                <textarea name="" id="coment" cols="" rows=""></textarea>
+            </div> -->
+            <div id="submit1">
+                <button id="submit2" onclick="return myform()">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+<script>
+    
+    
+    var Email= document.getElementById("email3").value;
+    var Mobile= document.getElementById("mobilno3").value;
+    var DOB= document.getElementById("dob3").value;
+    var Gender= document.getElementById("gen").value;
+    var clas= document.getElementById("clas3").value;
+    
+    function myform(){
+        var name= document.getElementById("name1").value;  
+if(name ==""){
+    document.getElementById("sname").innerHTML="***please fill the name";
+    //alert("***please fill the name")
+    return false;
+}else{
+    return true;
+};
+var fname= document.getElementById("Fname").value;
+if(fname ==""){
+    document.getElementById("sfname").innerHTML="***please fill the Father name";
+    return false;
+}else{
+    return true;
+}
+
+    }
+</script>
+</html>
