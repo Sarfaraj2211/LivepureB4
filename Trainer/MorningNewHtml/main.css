@@ -1,0 +1,26 @@
+div {
+  /* background-color: red;
+  border: 20px solid green; */
+ 
+}
+
+
+img{
+  height: 200px;
+  width: 300px;
+  border: 10px groove red;
+
+  /* float: right; */
+}
+/* img:hover{
+  height: 200px;
+  width: 400px;
+  border: 15px double green;
+} */
+h1{
+  /* float: right; */
+}
+
+img{
+  border: 10px solid rgb(27, 153, 33);
+}
