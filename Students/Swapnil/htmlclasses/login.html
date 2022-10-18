@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="username" id="head1">
+    <input type="password" placeholder="password" id="head2">
+    <button id="btn1" onclick="fun1()">Login</button>
+    <script>
+        function fun1() {
+            let x = document.getElementById("head1").value;
+
+            //    alert(x);
+            let y = document.getElementById("head2").value;
+            // alert(y);
+            if(x=="swapnil" && y=="12345"){
+                location.href="http://127.0.0.1:5500/htmlclasses/localstorageassignment.html";
+                
+            }
+            else{
+                alert("Wrong username or password");
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+//Make registration form,store data in localStorage, next page login page, next page display details in webpage.

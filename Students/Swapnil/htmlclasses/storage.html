@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1"> This is cookies class</h1>
+    <script>
+        document.cookie="Laptop = Lenevo; expires=Tue,26 Sep 2022 17:12:00 UTC;Secure=False";
+        document.cookie="Location = India";
+        let a = document.cookie;
+        document.getElementById("head1").innerHTML=a;
+        // alert(typeof a);
+    </script>
+</body>
+</html>
+
+<!-- Assignment:- Take a name and value to store both in the cookie by submiting button.  -->

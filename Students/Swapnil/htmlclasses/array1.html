@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array 1</title>
+</head>
+
+<body>
+    <h1 id="a1"></h1>
+    <script>
+        let arr = ["rahul", "ajay", "kunal", "sumit"];
+        // document.getElementById("a1").innerHTML=arr.length;
+        // document.getElementById("a1").innerHTML=arr;
+        var x = "<ul>";
+
+        for (var i = 0; i < arr.length; i++) {
+            // document.getElementById("a1").innerHTML = i;
+            // alert(arr[i]);
+            x = x + "<li>"+arr[i]+"</li>";
+
+
+        }
+        
+        x = x +"</ul>";
+        document.getElementById("a1").innerHTML = x;
+
+
+
+
+
+            // let y = "This is array class";
+
+            // let x = `<ul>`;
+            //     for(const i of arr)
+            //     {
+            //       x = x+`<li> ${i} </li>`;
+            //     }
+            //     x = x+`</ul>`;
+            //     document.getElementById("a1").innerHTML=x;
+    </script>
+
+</body>
+
+</html>

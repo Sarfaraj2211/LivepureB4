@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result</title>
+</head>
+
+<body>
+    
+    <input type="text" id="a1" placeholder="search result by name">
+    <button onclick="stud()">Search Result</button>.
+    <!-- <h1 id="head1"></h1> -->
+    <span>Result is -</span>
+    <span id="head1"></span>
+    <script>
+
+         localStorage.setItem('Rahul', '65%');
+         localStorage.setItem('Yogesh', '72%');
+         localStorage.setItem('Raj', '75%');
+         localStorage.setItem('Harsh', '86%');
+         localStorage.setItem('Kunal', '77%');
+        function stud() {
+          let x = document.getElementById("a1").value;
+
+            if (x=="Rahul") {
+                document.getElementById("head1").innerHTML = localStorage.getItem('Rahul');
+                // alert(a);
+            }
+
+            else if (localStorage.getItem("Yogesh") == true) {
+                document.getElementById("head1").innerHTML = localStorage.getItem('Yogesh');
+            }
+            else if (localStorage.getItem("Raj") == true) {
+
+                document.getElementById("head1").innerHTML = localStorage.getItem('Raj');
+            }
+            else if (localStorage.getItem("Harsh") == true) {
+                document.getElementById("head1").innerHTML = localStorage.getItem('Harsh');
+            }
+            else if (localStorage.getItem("Kunal") == true) {
+                document.getElementById("head1").innerHTML = localStorage.getItem('Kunal');
+            }
+
+            else {
+                document.getElementById("head1").innerHTML = "Null";
+            }
+
+        }
+    </script>
+</body>
+
+</html>
