@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head1">hello</h1>
+</body>
+<script>
+    function fun1() {
+        let a = prompt("Enter Color Name: ");
+        document.getElementById("head1").innerHTML = "Changed Backgroud Color";
+        document.getElementById("head1").style.backgroundColor = a;
+    }
+    fun1();
+
+</script>
+
+</html>

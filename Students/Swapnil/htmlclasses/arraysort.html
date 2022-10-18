@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head1"></h1>
+    <script>
+        // let x = [32,12,55,34,29];
+        // x.sort(function(a,b){return b-a})
+        // y= x.length-1
+
+        let car = [{ type: "maruti", year: "1982" }, { type: "xuv3oo", year: "2018" }, { type: "aulto", year: "2003" }];
+        car.sort(function (a, b) { return b.year - a.year });
+        document.getElementById("head1").innerHTML = car[0].type + " " + " " + car[0].year + "<br>" + car[1].type + " " + " " + car[1].year + "<br>" + car[2].type + " " + " " + car[2].year;
+
+    </script>
+</body>
+
+</html>

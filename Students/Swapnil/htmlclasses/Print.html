@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print {
+            #btn1 {
+                display: none;
+            }
+
+            #head1 {
+                color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 id="head1">Raven by Edgar Allan Poe</h1>
+        <br>
+        <p>The Raven" is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem
+            is often noted for its musicality, stylized language, and supernatural atmosphere. It tells of a talking
+            raven's mysterious visit to a distraught lover, tracing the man's slow descent into madness.</p>
+
+    </div>
+    <iframe name="clg"></iframe>
+    <button id="btn1" onclick="print_poem()">Printout</button>
+    <script>
+        function print_poem() {
+            // window.print();
+            // window.location="http://sinhgadsolapur.org/EdSite/";
+            window.open("http://sinhgadsolapur.org/EdSite/", "clg");
+        }
+    </script>
+
+</body>
+
+</html>
