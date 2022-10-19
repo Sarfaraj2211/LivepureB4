@@ -48,4 +48,58 @@
         (48) what is block level and inline element? give atleast 5 exmaple .
         (49) what is <iframme> tag?
         (50)In how many ways you can display HTML elements?
-        (51)
+        (51) what is form tags?
+        (52) give few statement about <input> element?
+        (53) what is different between <input type="radio> and <input type="checkbox">?
+        (54) Difine the <input type="submit">?
+        (56) what is text fields and write it's syntaxt?>
+        (57) what is "novalidate attribute" ?
+        (58) what is drop down? 
+        (59) is <select> use for dop-down? If yes then write syntaxt?
+        (60) If we want a multi-line input field then which tag is helpful?
+        (61) what is work of <fieldset> and <legend> tags?
+        (62) what the work of <datalist> tag?
+        (63) How can we rest our web site using HTML button?How does it create?
+        (64) how can we specifies a date and time using input  tags?
+        (65) Eloborate the <input type="range">?
+        (66) what is syntaxt for creating a search button?
+        (67) how can we add autofocus in html form?
+        (69)what is <video> tag?how can we define in HTML?
+        (70) how can we set autoplay video at our WEB site?
+        (71) write down sementic element in HTML? 
+
+        <!-- ------ LOGICAL QUESTIO OF HTML  AND CSS-->
+
+
+        (1) Write an HTML code to form a table to show the below values in a tabular form with heading as Roll No., Student name, Subject Name, and values as
+
+                1.Ram, Physics
+                2.Shyam, Math
+                3.Murli, Chemistry
+        (2)If want to add style border, background image  on given exaple then write external css 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Welcome to Livepure
+        </h1>
+    </div>
+    <div>
+        <P>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, iste!
+        </P>
+    </div>
+</body>
+</html> 
+
+
+        (3) Design the given immge using css
+            
