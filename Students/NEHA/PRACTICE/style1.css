@@ -1,0 +1,20 @@
+
+p{
+    color: blue;
+    font-size:40px;
+    
+    
+ }
+ .img-container{
+    text-align: center;
+    top:50px;
+ 
+ }
+ img{
+    height: 500px;
+    width: 500px;
+    border: 5px groove red;
+ }
+ body{
+    background-color: rgb(187, 255, 0);
+ }

@@ -3,8 +3,7 @@ git clone https://github.com/kaushalkumar8459/LivepureB4.git
 
 
 perday step:-
-
-click terminal ----> open new terminal
+git click terminal ----> open new terminal
 follw per day for git pull
 git pull ---> to get latest code from the repository
 
@@ -17,3 +16,31 @@ ex:-
 git commit -m "created registration and login page"
 3) git pull ---> to get latest code from the repository
 4) git push -----> to push our code changes from local to git repojitry.
+
+
+----------------------------------------------------------------------------------------
+Shortcut Key of vs code:-
+1) globally search :- ctrl + shift + f
+2) page level search :- ctrl + f
+3) find and replace or search and replace:- ctrl + H
+
+----------------------------------------------------------------------------------------
+4) Hard refresh browser window :- shift + f5 or  ctrl + shift R 
+
+----------------------------------------------------------------------------------------
+delete temp file from browser:-
+open chrome ----> settings ----> clear browsing data ---> select 
+-----> Basic ---->Time Range --> All Time ----> press button (clear data)
+
+
+----------------------------------------------------------------------------------------
+
+for delete temp file from laptop:-
+1) window + R   --> %temp%---->ctrl + A----->shift + delete
+2) window + R   --> prefetch---->ctrl + A----->shift + delete---->
+(when pop up will come)click check box ---> skip
+1) window + R   --> cmd---->gpupdate /force
+
+
+
+

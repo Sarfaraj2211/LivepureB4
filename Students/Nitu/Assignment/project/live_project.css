@@ -1,0 +1,39 @@
+.demo{
+    /* display: inline; */
+    margin: 30px;
+    text-align: center;
+    
+}
+.image{
+    padding: 10px;
+}
+.head{
+    background-color: rgb(112, 120, 156);
+    text-align: center;
+    border: 1px solid rgb(104, 104, 145);
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+.form{
+    display:block;
+    background-color: orangered;
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+}
+.paragraph{
+    margin-left:100px;
+}
+.head2{
+    margin-left:100px;
+    font-size: -10px;
+}
+.head3{
+    text-align: center;
+}
+    hr{
+        margin-left: 700px;
+        margin-right: 700px;
+        font-size: 2px;
+    }

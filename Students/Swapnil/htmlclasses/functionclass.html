@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body id="id5">
+    <h1 id="id1" style="display: inline;" ></h1>
+    <span>+</span>
+    <h1 id="id2" style="display: inline;"></h1><br>
+    <span>Result =</span>
+    <h1 id="id3" style="display: inline;"></h1>
+    <script>
+        var p=prompt('Take Color');
+        document.getElementById('id5').style.background=p;
+        function add()
+        { 
+            let x=parseInt(prompt('Enter 1st number'));
+            document.getElementById('id1').innerHTML=x;
+            let y=parseInt(prompt('Enter 2nd number'));
+            document.getElementById('id2').innerHTML=y;
+
+
+            document.getElementById('id3').innerHTML=x+y;
+
+        }
+        add();
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 5px groove red;
+            background-color: rgb(164, 21, 138);
+            /* float: right; */
+            width: 100%;
+            text-transform: uppercase;
+        }
+
+        td {
+            width: 200px;
+        }
+
+        /* table:hover {
+            background-color: pink;
+        }
+ */
+
+        a:hover,
+        tr:hover {
+            background-color: rgb(244, 240, 15);
+            color: rgb(247, 32, 3);
+        }
+
+
+        th {
+            border: 2px solid royalblue;
+            /* background-color: chartreuse; */
+        }
+
+        td {
+            border: 2px solid green;
+            /* background-color: goldenrod; */
+
+        } 
+
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .sellerDetail {
+            text-align: left;
+        }
+        tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        td:nth-child(odd){
+         background-color: rgba(19, 74, 239, 0.4);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Product Details</caption>
+        <thead>
+            <tr>
+                <th>Seller</th>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <!-- <th>Detail</th>
+                <th>Category</th> -->
+                <th colspan="2">Detail and Category</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Seller Detail</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    <ol class="sellerDetail">
+                        <li>Amazon </li>
+                        <li>Flipkart</li>
+                        <li>Mesho</li>
+                    </ol>
+                </th>
+                <td>1</td>
+                <td>Apple</td>
+                <td>mobile phone</td>
+                <td>Mobile</td>
+                <td>
+                    <img src="https://m.media-amazon.com/images/I/41HSkMxLEJL._AC_SY200_.jpg" alt="">
+                </td>
+                <td>Rs 8,000</td>
+                <td>5</td>
+                <td>America</td>
+                <td>
+                    <a
+                        href="https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX?pf_rd_r=BB2J0RRAM4VQX1JW3EH8&pf_rd_p=372e63e3-a432-4b71-b83b-b236201e135b&pd_rd_r=7897fea5-f0c8-4a4c-ab41-71c9dd9f5a83&pd_rd_w=aTAYe&pd_rd_wg=QNpWZ&ref_=pd_gw_unk">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Name</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Amazon
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Flipkart
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>2</td>
+                <td rowspan="4" style="background-color: rgb(167, 167, 248);">Real Me TV</td>
+                <td>TV</td>
+                <td>TV</td>
+                <td>
+                    <img src="https://m.media-amazon.com/images/I/413AJ+Bn+jL._AC._SR360,460.jpg" alt="">
+                </td>
+                <td>Rs 10,000</td>
+                <td>10</td>
+                <td>UK</td>
+                <td>
+                    <a
+                        href="https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX?pf_rd_r=BB2J0RRAM4VQX1JW3EH8&pf_rd_p=372e63e3-a432-4b71-b83b-b236201e135b&pd_rd_r=7897fea5-f0c8-4a4c-ab41-71c9dd9f5a83&pd_rd_w=aTAYe&pd_rd_wg=QNpWZ&ref_=pd_gw_unk">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Amazon</th>
+                <td>3</td>
+                <!-- <td>Real Me TV</td> -->
+                <td>TV</td>
+                <td>TV</td>
+                <td> <img src="https://m.media-amazon.com/images/I/51q3+E64azL._SX300_SY300_.jpg" alt="">
+                </td>
+                <td>Rs 10,000</td>
+                <td>10</td>
+                <td>UK</td>
+                <td>
+                    <a
+                        href="https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX?pf_rd_r=BB2J0RRAM4VQX1JW3EH8&pf_rd_p=372e63e3-a432-4b71-b83b-b236201e135b&pd_rd_r=7897fea5-f0c8-4a4c-ab41-71c9dd9f5a83&pd_rd_w=aTAYe&pd_rd_wg=QNpWZ&ref_=pd_gw_unk">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Mesho</th>
+                <td>4</td>
+                <!-- <td>Real Me TV</td> -->
+                <td>TV</td>
+                <td>TV</td>
+                <td> <img src="https://m.media-amazon.com/images/I/51q3+E64azL._SX300_SY300_.jpg" alt="">
+                </td>
+                <td>Rs 10,000</td>
+                <td>10</td>
+                <td>UK</td>
+                <td>
+                    <a
+                        href="https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX?pf_rd_r=BB2J0RRAM4VQX1JW3EH8&pf_rd_p=372e63e3-a432-4b71-b83b-b236201e135b&pd_rd_r=7897fea5-f0c8-4a4c-ab41-71c9dd9f5a83&pd_rd_w=aTAYe&pd_rd_wg=QNpWZ&ref_=pd_gw_unk">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Flipkart</th>
+                <td>5</td>
+                <!-- <td>Real Me TV</td> -->
+                <td>TV</td>
+                <td>TV</td>
+                <td>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/41fVP+e7CzS._AC._SR240,240.jpg" alt="">
+                </td>
+                <td>Rs 10,000</td>
+                <td>10</td>
+                <td>UK</td>
+                <td>
+                    <a
+                        href="https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX?pf_rd_r=BB2J0RRAM4VQX1JW3EH8&pf_rd_p=372e63e3-a432-4b71-b83b-b236201e135b&pd_rd_r=7897fea5-f0c8-4a4c-ab41-71c9dd9f5a83&pd_rd_w=aTAYe&pd_rd_wg=QNpWZ&ref_=pd_gw_unk">Link
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Total Amount</td>
+                <td>Rs: 40,00,000</td>
+                <td>500</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+h1{border: 20px solid black;
+border-radius:50px;
+height: inherit;
+width: inherit;
+}
+div{background-color: blue; width:200px;height:150px;}

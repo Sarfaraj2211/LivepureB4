@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Using Function</title>
+</head>
+
+<body>
+
+    Name:<input type="text" id="txtName">
+    Class:<input type="text" id="txtClass"> <br /><br />
+    <table>
+        <tr>
+            <td>English</td>
+            <td><input type="number" id="txtEnglish"></td>
+        </tr>
+        <tr>
+            <td>Marathi</td>
+            <td><input type="number" id="txtMarathi"></td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td><input type="number" id="txtMaths"></td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td><input type="number" id="txtScience"></td>
+        </tr>
+    </table><br /><br />
+    <button onclick="getReport()">Get Result</button>
+
+
+
+    <h2>Result</h2>
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="number" id="txtStudentName" readonly></td>
+        </tr>
+        <tr>
+            <td>Class</td>
+            <td><input type="number" id="txtStudentClass" readonly></td>
+        </tr>
+        <tr>
+            <td>Total Marks</td>
+            <td><input type="number" id="txtTotalMarks" readonly></td>
+        </tr>
+        <tr>
+            <td>Average Marks</td>
+            <td><input type="number" id="txtAvgMarks" readonly></td>
+        </tr>
+        <tr>
+            <td>Grade</td>
+            <td><input type="number" id="txtGrade" readonly></td>
+        </tr>
+        <tr>
+            <td>Remarks</td>
+            <td><input type="number" id="txtResult" readonly></td>
+        </tr>
+    </table>
+    <script>
+        function getReport() {
+
+            var grade = "";
+            var result = "";
+
+
+            var engMarks = document.getElementById('txtEnglish').value;
+            var marathiMarks = document.getElementById('txtMarathi').value;
+            var mathsMarks = document.getElementById('txtMaths').value;
+            var scienceMarks = document.getElementById('txtScience').value;
+
+
+            var totalMarks= parseInt(engMarks) + parseInt(marathiMarks) + parseInt(mathsMarks) + parseInt(scienceMarks);
+            var averageMarks = totalMarks / 4;
+
+            if (averageMarks > 60) {
+                alert("A");
+                alert("First class");
+            }
+           else if (averageMarks > 50) {
+                alert("B");
+                alert("Second class");
+
+            }
+           else if (averageMarks > 40) {
+                alert("C");
+                alert("Third class");
+
+            }
+            else {
+                alert("Failed");
+            }
+        
+
+
+        document.getElementById('txtStudentName').value = document.getElementById('txtName').value;
+        document.getElementById('txtStudentClass').value = document.getElementById('txtClass').value;
+        document.getElementById('txtTotalMarks').value = totalMarks;
+        document.getElementById('txtAvgMarks').value = averageMarks;
+        document.getElementById('txtGrade').value = grade;
+        document.getElementById('txtResult').value = result;
+
+        } 
+    </script>
+
+</body>
+
+</html>
