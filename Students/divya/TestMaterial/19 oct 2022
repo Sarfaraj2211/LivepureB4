@@ -1,5 +1,6 @@
 (1)what is sementic and nonsementic tags?
-Ans:-
+Ans:- tag thats are some meaning is called sementic tag and who doesnt have any meaning is call nonsemantic tag
+
 
 
 
@@ -10,7 +11,11 @@ Ans:-
 
 
 (2)What is empty tags? give atlest 3 examples and it's syntaxt?
-Ans:-
+Ans:- elements with no contents and not have end tag are called empty elements.
+      1)<br>
+      2)<hr>
+      3)<img>
+
 
 
 
@@ -22,7 +27,12 @@ Ans:-
 
 
 (3) what is work of formatting tags? give the atlest 5 examples.
-Ans:-
+Ans:-it is a special designed tag that called formatting tag.
+   1)<b>
+   2)<strong>
+   3)<i>
+   4)<mark>
+   5)<small>
 
 
 
@@ -36,60 +46,63 @@ Ans:-
 
 4)what is use of below tags
     <strong>
-Ans:-
+Ans:-it is used for important text
 
 
     <b>
-Ans:-
+Ans:-it is used for bold the text
 
 
      <small>
- Ans:-
+ Ans:-it is used for write small text
 
 
     <sub>
- Ans:-
+ Ans:-it is subscript tag  eg.H2O
 
 
     <sup>
- Ans:-
+ Ans:-it is superscript tag eg.x2+2xy+y2
 
 
     <blockquote>
- Ans:-
+ Ans:-it is add the space in front of tag/content
 
 
     <q>
- Ans:-
+ Ans:- its defined the short quotetion eg."Hello"
 
 
     <address>
- Ans:-
+ Ans:-it defines the contact inforamation for the owner of documennts.
+
 
 
     <bdo>
-Ans:-
+Ans:-bidirection override ,it is used for override the text direction like mirror image.
+
 
 
  
 
 (5) write 2 attribute of anchore tag?
-Ans:-
+Ans:- anchore tag attribute is href and style
 
 
  
 
 (6) what is <iframme> tag?
-Ans:-
+Ans:-<iframe> is used to display a web page within a web page 
 
-
+ syntax : <iframe src="url" title="description"></iframe>
 
 
 
 
  
 (7) what is different between colspan and rowspan in HTML table?
-Ans:-
+Ans:- the difference between rowspan and colspan is colspan is merge th column ahe rowspan          
+     is merging rows of the table
 
 
 
@@ -99,7 +112,9 @@ Ans:-
 
 
 (8) what is full form of dl,dd,dt in list?
-Ans:-
+Ans:-dl = discription list
+   dd = data defination
+    dt = data term
 
 
 
@@ -114,8 +129,9 @@ Ans:-
 
 
 (9) what is block level and inline element? give atleast 5 exmaple.
-Ans:-
-
+Ans:-block level elements take full width in horizontal and inline element take as much as space of content.
+    1) block level = h<h1>, <h2>, <p>
+    2) inline = <i>, <b>,and all the formatting tags 
 
 
 
@@ -129,14 +145,55 @@ Ans:-
                 2.Shyam, Math
                 3.Murli, Chemistry
 
-code:-
-
-
-
-
+code:- 
+   <style>
+     table,
+        td,
+        th {
+            border-collapse: collapse;
+      </style>
+            
+   <body>
+    <table>
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th> Subject Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Murli</td>
+            <td>Chemistry</td>
+        </tr>
+    </tbody>
+</table>
+    </body>
 
 
 2)image question
+
+  <body>
+     <div style="border:2px solid red ; width: 300px;">
+     <img src="https://image.shutterstock.com/image-vector/man-icon-260nw-407331091.jpg" alt="">
+        <div style="background-color:aqua ;">
+           <h1>NAME</h1>
+           <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P></div>
+      </div>
+
+</body>
 
 
 
