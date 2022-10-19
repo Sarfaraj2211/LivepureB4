@@ -1,6 +1,9 @@
 (1)what is sementic and nonsementic tags?
 Ans:-
-
+    * sementic tag:- it's mean that tag which meaning full for both user and compiler.
+        ex- <nav>,<form>, <table>, <article>
+   * Non-sementic tag:- That tag which meaning is not understand by the user.
+      ex- <div> ,<spen>
 
 
 
@@ -11,9 +14,8 @@ Ans:-
 
 (2)What is empty tags? give atlest 3 examples and it's syntaxt?
 Ans:-
-
-
-
+  * empty tags:- That tags which ave not content or not have closing tage
+    ex:- <img src="" alt="">,<hr>,<meta>
 
 
 
@@ -23,7 +25,8 @@ Ans:-
 
 (3) what is work of formatting tags? give the atlest 5 examples.
 Ans:-
-
+     *formatting tag:- formatting tags is use for the formate the HTML element.
+     ex:- <b>,<strong>,<u>,<i>,<em>
 
 
 
@@ -36,51 +39,62 @@ Ans:-
 
 4)what is use of below tags
     <strong>
-Ans:-
+Ans:- It is use to difine the strong important at the content.
+     
+     ex- <p>This is my text <strong> for heading</strong> </p>
 
 
     <b>
-Ans:-
+Ans:- It is use for the text as bold
+       ex-<p>This is my text <b> for heading</b></p>
+
 
 
      <small>
  Ans:-
-
+      With the help of this tag we can add text as small.
+      ex- <p>This is my text <small> for heading</small></p>
 
     <sub>
- Ans:-
+ Ans:-with the help of we can creat mathematical equation.
+      ex:- <p> a <sub>2</sub>+b <sub>2</sub>+2ab </p>
 
 
     <sup>
  Ans:-
-
-
+     this is also use for represebting the mathematical equation.
+      ex:-<p> a <sup>2</sup>+b <sup>2</sup>+2ab </p>
     <blockquote>
- Ans:-
+ Ans:- It is use for the quatation of content.With the help of this we can represent the book, novel,and ward .
 
 
     <q>
- Ans:-
+ Ans:-it use to reperesent the small qouts
 
 
     <address>
- Ans:-
+ Ans:- it is use to defien the address as user.
+       it also use as input field
 
 
     <bdo>
-Ans:-
+Ans:-  with the help of this we can change the diriction taxt.
+      
 
 
  
 
 (5) write 2 attribute of anchore tag?
 Ans:-
-
+     <a href="" style=""></a>
+     here :-
+     href and style is sttribute of anchore tag
 
  
 
 (6) what is <iframme> tag?
-Ans:-
+Ans:- it is stand for inline farame.
+     it is use to add other document in html.
 
 
 
@@ -90,7 +104,8 @@ Ans:-
  
 (7) what is different between colspan and rowspan in HTML table?
 Ans:-
-
+   colspan is use to merage a the colum in the html table.
+   rowspan is use to merage a the  row in the html table
 
 
 
@@ -100,6 +115,9 @@ Ans:-
 
 (8) what is full form of dl,dd,dt in list?
 Ans:-
+   dl:- discription of the list
+   dd:- data
+   dt:- table header
 
 
 
@@ -115,7 +133,10 @@ Ans:-
 
 (9) what is block level and inline element? give atleast 5 exmaple.
 Ans:-
-
+       block level:- that element which is take full wirdh of row .
+         ex:- address, article , div , form ,header
+       inline :- that element which is not take full wirdh of the row
+       ex abbr, bdo, br,span, i,img
 
 
 
@@ -130,7 +151,50 @@ Ans:-
                 3.Murli, Chemistry
 
 code:-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style type="text/css">
+		table{
+			border : 2px solid black;
+		}
+		td{
+			border : 2px solid black;
+		}
+		th{
+			border : 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<th>Roll No.</th>
+			<th>Student Name</th>
+			<th>Subject Name</th>
+		</thead>
+		<tr>
+			<td>1</td>
+			<td>Ram</td>
+			<td>Physics</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Shyam</td>
+			<td>Math</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Murli</td>
+			<td>Chemistry</td>
+		</tr>
+	</table>
+</body>
+</html>
 
 
 
@@ -138,5 +202,37 @@ code:-
 
 2)image question
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .card_cont{
+        height: 50%;
+        width: 20.5%; 
+        border: 3px solid red;
+        background-color: blueviolet;
+        
+    }
+    .detai9l_cont{
+        background-color: rgb(188, 224, 213);
+       
+    }
+     </style>
+</head>
+<body>
+    
+    <div class="card_cont">
+        <img src="https://image.shutterstock.com/image-vector/man-icon-260nw-407331091.jpg" alt="avtar"> 
+        <div class="detai9l_cont">
+            <h3>NAME</h3>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, illo.</P>
+            
+        </div>
+    </div>
+</body>
+</html>
 
