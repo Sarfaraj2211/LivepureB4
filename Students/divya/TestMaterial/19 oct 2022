@@ -129,7 +129,8 @@ Ans:-dl = discription list
 
 
 (9) what is block level and inline element? give atleast 5 exmaple.
-Ans:-block level elements take full width in horizontal and inline element take as much as space of content.
+Ans:-block level elements take full width in horizontal and 
+inline element take as much as space of content.
     1) block level = h<h1>, <h2>, <p>
     2) inline = <i>, <b>,and all the formatting tags 
 
