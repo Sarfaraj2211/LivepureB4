@@ -1,43 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Form</title>
+    <style>
+        #maneFormBlock{
+            border: 3px solid blue;
+            width: 200px;
+            padding: 3px;
+            color: rgb(88, 182, 79);
+            margin: 20px;
+            outline: 5px groove black;
+            outline-offset: 4px ;
+        }
+        input{
+            background-color: aqua;
+            color: red;
+            width: 180px;
+        }
+        button{
+            color: tomato;
+            background-color: yellowgreen;
+            width: 100px;
+            border-radius: 30px;
+            width: 180px;
+        }
+    </style>
 </head>
+
 <body>
-    <input type="text">
-    <input type="radio">
-    <input type="checkbox">
-    <input type="submit">
-    <input type="button">
-<form action="">
-<label for="html">saleem</label>
-<input type="text"><br>
-<label for="text">last name</label>
-<input type="text"><br>
-</form>
-
-<h1>chakbox</h1>
-<input type="checkbox">
-<label for="">i have biscaile</label><br>
-<input type="checkbox"><label for="">i have fild</label>
-<button type="button">  submit      </button>
-<legend>prosnal</legend>
-<h2>input type</h2>
-<input type="week">
-<input type="color">
-<input type="date">
-<input type="email">
-
-
-
-
-
-
-
+    <h1 id="formTitle">Registration Form</h1>
+    <form action="">
+        <div id="maneFormBlock">
+            <div>
+                <label for="inpBlock" id="nameBlock" class="claNameBlock" title="Name of person">Name</label><br>
+                <input id="inpBlock" placeholder="Name of parshan" type="text">
+            </div>
+    
+            <div>
+                <label for="inpEmailBlock" id="emalBlock" class="claEmailBlock" title="Email of the person">email</label>
+                <br>
+                <input id="inpEmailBlock" placeholder="email id" type="email">
+            </div>
+            <div>
+                <label for="inpPasswordBlock" id="passwordBlock" class="claPasswordBlock"
+                    title="Password of the email">Password</label> <br>
+                <input type="password" id="inpPasswordBlock">
+            </div>
+            <div>
+                <label for="inpMobileBlock" id="mobileBlock" class="claMobileBlock" title="mobile no of the person">Mobil No
+                </label> <br>
+                <input type="number" id="inpMobileBlock" placeholder="Mobile number">
+            </div>
+            <div>
+                <label for="dobBlock" id="dobBlock" class="claDobBlock" title="Date of barth">DOB</label> <br>
+                <input type="date" id="dobBlock" placeholder="Date of borth">
+            </div>
+            <div>
+                <button>submite</button>
+            </div>
+        </div>
+    </form>
 
 
 </body>
+
 </html>
