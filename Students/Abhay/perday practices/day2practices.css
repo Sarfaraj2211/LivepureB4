@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    border:dotted red 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: royalblue;
+}
+body{
+    background-color:yellow;
+}
