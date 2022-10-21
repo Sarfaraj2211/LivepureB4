@@ -1,0 +1,142 @@
+(1)what is sementic and nonsementic tags?
+Ans:-
+
+
+
+
+
+
+
+
+
+(2)What is empty tags? give atlest 3 examples and it's syntaxt?
+Ans:-
+
+
+
+
+
+
+
+
+
+
+(3) what is work of formatting tags? give the atlest 5 examples.
+Ans:-
+
+
+
+
+
+
+
+
+
+
+
+4)what is use of below tags
+    <strong>
+Ans:-
+
+
+    <b>
+Ans:-
+
+
+     <small>
+ Ans:-
+
+
+    <sub>
+ Ans:-
+
+
+    <sup>
+ Ans:-
+
+
+    <blockquote>
+ Ans:-
+
+
+    <q>
+ Ans:-
+
+
+    <address>
+ Ans:-
+
+
+    <bdo>
+Ans:-
+
+
+ 
+
+(5) write 2 attribute of anchore tag?
+Ans:-
+
+
+ 
+
+(6) what is <iframme> tag?
+Ans:-
+
+
+
+
+
+
+ 
+(7) what is different between colspan and rowspan in HTML table?
+Ans:-
+
+
+
+
+
+
+
+
+(8) what is full form of dl,dd,dt in list?
+Ans:-
+
+
+
+
+
+
+
+
+
+
+
+
+
+(9) what is block level and inline element? give atleast 5 exmaple.
+Ans:-
+
+
+
+
+
+
+=========================coding section========================
+
+(1) Write an HTML code to form a table to show the below values in a tabular form with heading as Roll No., Student name, Subject Name, and values as
+
+                1.Ram, Physics
+                2.Shyam, Math
+                3.Murli, Chemistry
+
+code:-
+
+
+
+
+
+
+2)image question
+
+
+

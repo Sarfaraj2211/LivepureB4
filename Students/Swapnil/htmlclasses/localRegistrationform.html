@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="store()">
+        <label>First Name</label>
+        <input type="text" id="a1" value="firstname" required><br>
+        <label>Email</label>
+        <input type="email" id="a3" value="email" required><br>
+        <label>Password</label>
+        <input type="password" id="a4" value="password"required><br>
+        <label>Nationality</label>
+        <input type="nationality" id="a5" value="nationality"required><br>
+        <label>Contact Number</label>
+        <input type="number" id="a6" value="number"required><br>
+        <input type="submit" value="submit" name="submit">
+    </form>
+  
+    <script>
+        function store() {
+
+            let name = document.getElementById("a1").value;
+            let email = document.getElementById("a3").value;
+            let pass = document.getElementById("a4").value;
+            let nat = document.getElementById("a5").value;
+            let con = document.getElementById("a6").value;
+alert("Check");
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>

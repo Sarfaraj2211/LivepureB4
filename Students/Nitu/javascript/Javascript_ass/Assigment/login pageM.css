@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: linear-gradient(red,blue);
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.txt_field{
+    position: relative;
+    border-bottom: 2px solid rgb(15, 17, 12);
+    margin:30px 0;
+    
+}
+input{
+    border: none;
+}

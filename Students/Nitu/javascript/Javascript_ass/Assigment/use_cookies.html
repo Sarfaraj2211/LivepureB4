@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./use_cookies.css">
+    <script src="./use_cookies.js"></script>
+</head>
+<body>
+    <!-- <h1 id="h1">this is cookie class</h1> -->
+    <form id="form">
+
+
+        <h3 id="h1">Cookie</h3>
+        <div class="div_inp">
+            <span id="snam"></span><br>
+
+            <label for="name" id="lab_name">Name</label>
+            <input type="text" id="name" placeholder="">
+        </div>
+        <div class="div_inp">
+            <span id="sdat"></span><br>
+            <label for="dat" id="ldat">expires</label>
+            <input type="text" id="dat" placeholder="">
+
+        </div>
+        <div class="div_inp">
+            <span id="sEmal"></span><br>
+            <label for="emal" id="mail">Location</label>
+            <input type="text" id="emal" placeholder="">
+
+        </div>
+
+        
+        <div>
+            <!-- <input type="button" value="Save" id="sum"  > -->
+            <button onclick="myform()" id="btn">click here</button>
+
+        </div>
+    </form>
+    <script>
+        function myform(){
+            let name = document.getElementById("name").value
+            let Expires = document.getElementById("dat").value
+            let Location = document.getElementById("emal").value
+            
+
+            document.cookie=`name=${name};expires= ${Expires};secure`;
+        //document.cookie="loccation=india";
+        //document.cookie=`name=;secure`;
+        //document.cookie=`Expires=`;
+        //document.cookie=``;
+        //let a= document.cookie;
+        //document.getElementById("h1").innerHTML=a;
+        
+        }
+        
+        
+    </script>
+</body>
+</html>

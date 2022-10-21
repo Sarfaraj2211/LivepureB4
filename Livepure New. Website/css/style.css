@@ -41,6 +41,15 @@
 *::after {
   box-sizing: border-box;
 }
+/* New changes */
+.centerImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 40px;
+ }
+ 
 
 html {
   font-family: sans-serif;
@@ -204,7 +213,7 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
-
+/* d */
 img {
   vertical-align: middle;
   border-style: none;
@@ -498,13 +507,20 @@ h6,
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+<<<<<<< HEAD:Livepure New. Website/css/style.css
   color: red;
+=======
+>>>>>>> 5e0faeb038583baf456e28d27b75601f9f4dd9fc:Livepure New Website/css/style.css
 }
 
 @media (max-width: 1200px) {
   .display-4 {
+<<<<<<< HEAD:Livepure New. Website/css/style.css
     font-size: calc(1.475rem + 2.7vw);
 
+=======
+    font-size: calc(1.475rem + 2.7vw) ;
+>>>>>>> 5e0faeb038583baf456e28d27b75601f9f4dd9fc:Livepure New Website/css/style.css
   }
 }
 
@@ -10590,9 +10606,15 @@ button.bg-dark:focus {
 .text-right {
   text-align: right !important;
 }
-
+/* display add*/
 .text-center {
+ display: flex; 
   text-align: center !important;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 @media (min-width: 576px) {
@@ -10678,6 +10700,7 @@ button.bg-dark:focus {
 .font-weight-bold {
   font-weight: 700 !important;
 }
+
 
 .font-weight-bolder {
   font-weight: bolder !important;
@@ -10842,6 +10865,7 @@ a.text-dark:focus {
   tr,
   img {
     page-break-inside: avoid;
+    
   }
 
   p,
@@ -11066,9 +11090,15 @@ h6,
 }
 
 .bg-registration {
+<<<<<<< HEAD:Livepure New. Website/css/style.css
   background: linear-gradient(to right, rgb(255, 102, 0), rgba(0, 0, 0, 0.8))
     /* ,  url(../img/registration.jpg), no-repeat center center */
   ;
+=======
+  background: linear-gradient( to right, rgb(255,102,0), rgba(0, 0, 0, 0.8));
+  
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/registration.jpg), no-repeat center center; */
+>>>>>>> 5e0faeb038583baf456e28d27b75601f9f4dd9fc:Livepure New Website/css/style.css
   background-size: cover;
 }
 
@@ -11155,6 +11185,7 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+<<<<<<< HEAD:Livepure New. Website/css/style.css
 
 .teachers_guide {
   color: #c82333;
@@ -11175,3 +11206,66 @@ h6,
 .professional_activity {
   text-align: justify;
 }
+=======
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* display: inline-block */
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15;
+  margin-left: -15;
+}
+.col-xl-12,.col-lg-3,.col-md-6{
+  position: relative;
+  width: 500px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.center{
+  text-align: center;
+  padding-top: 10px;
+}
+.con{
+  position:relative;
+  width:100%;
+}
+.box_general{
+  background-color: #fff;
+  border-radius: 5px;
+  overflow:hidden;
+  margin-bottom: 35px;
+  box-shadow: 0 7px 25px rgb(0 0 0 /10%);
+  /* width: 100%; */
+}
+.image{
+  width: 80%;
+  height: 50%;
+  align-items: center;
+}
+.over{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to top right, #0fadb0, #4728a7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  transition: 1.5s ease;
+  color: whitesmoke;
+  margin: auto;
+}
+.white{
+  color: white;
+}
+
+
+>>>>>>> 5e0faeb038583baf456e28d27b75601f9f4dd9fc:Livepure New Website/css/style.css

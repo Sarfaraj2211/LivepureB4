@@ -1,0 +1,131 @@
+button::before,
+button::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position:absolute;
+    transition: all 0.2s linear;
+    background-color: #54E6E7;
+}
+span::before,
+span::after{
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background-color: #54E6E7;  
+}
+button:hover::before,
+button:hover::after{
+    width: 100%;
+}
+button:hover span::before,
+button:hover span::after{
+    height: 100%;
+}
+button::after{
+    right:0;
+    bottom:0;
+    transition-duration: 0.4s;
+}
+button span::after{
+    right:0;
+    bottom:0;
+    transition-duration: 0.4s;
+}
+button::before{
+    left:0;
+    bottom:0;
+    transition-duration: 0.4s;
+}
+button span::before{
+    left:0;
+    bottom:0;
+    transition-duration: 0.4s;
+}
+@import url('https:/fonts.googleeapis.com/css2?family=Nunito+Sans:wght@200sdisplay=swap');
+:root{
+    --font-style:'Nunito Sans',sans-serif;
+}
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: var(--font-style);
+    width: 100%;
+    background-color: #053A3D;
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    display: inline-block;
+    position: relative;
+    background-color: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 30px;
+    background: #1A2929;
+}
+span{
+    display: block;
+    padding: 25px 80px;
+}
+
+/*    this for wonderfull ring */
+
+
+.ring{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius: 50%;
+    border-left: 4px solid #1bc0f5;
+    border-top: 4px solid #1bc0f5;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(0dge);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.ring:nth-child(2){
+    animation: animate2 4s linear infinite;
+    animation-delay: -1s;
+    border-top: 4px solid #37eb26;
+    border-left: 4px solid #37eb26;
+}
+@keyframes animate2 {
+    0%{
+        transform: rotate(360dge);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.ring:nth-child(2){
+    animation: animate 4s linear infinite;
+    animation-delay: -3s;
+    position: absolute;
+    top: -66.66px;
+    border-left:4ps solid #e41db9;
+    border-top:4ps solid #e41db9;
+}
+@keyframes animate3 {
+    0%{
+        transform: rotate(360dge);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

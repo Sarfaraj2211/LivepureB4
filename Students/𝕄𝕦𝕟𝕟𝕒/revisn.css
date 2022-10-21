@@ -1,0 +1,25 @@
+div {
+    background-color: rgb(255, 255, 255);
+
+}
+
+img {
+
+    height: 100px;
+    width: 300px;
+    border: 10px groove red;
+    titel="emaig galiary"
+    
+}
+
+img:hover {
+    height: 600px;
+    width: 400px;
+    border: 15px double green;
+
+
+} 
+
+img{
+    border: 9px solid green;
+}

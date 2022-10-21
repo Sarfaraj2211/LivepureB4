@@ -1,0 +1,11 @@
+div{
+text-align: center;
+color:red;
+margin-top: 100px;
+font-family:initial;
+font-size: 50px;
+text-shadow:10px 10px 10px red ;
+}
+body{
+    background-color: rgb(255, 174, 0);
+}

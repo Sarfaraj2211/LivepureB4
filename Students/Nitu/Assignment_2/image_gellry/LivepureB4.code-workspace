@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\.."
+		},
+		{
+			"path": "../../../../../live_project/livepureNewWebsite"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "livepurebatch3"
+	}
+}

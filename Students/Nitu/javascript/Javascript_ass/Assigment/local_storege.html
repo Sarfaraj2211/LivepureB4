@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <form action="" id="form">
+            <h2>Login page</h2>
+            <span id="seml"></span><br><br>
+            <label for="nam">Email</label>
+            <input type="email" id="emal">
+            <span id="spass"></span><br><br>
+            <label for="">Password</label>
+            <input type="password" id="pass">
+            <span id="spassw"></span><br><br>
+            <label for=""> Conform Password</label>
+            <input type="password" id="passw"><br><br>
+            
+            <input type="submit" onclick="return myform()" value="Login" id="btn">
+        </form>
+    </div>
+</body>
+<script>
+    function myform() {
+        name = document.getElementById("emal").value
+        pass = document.getElementById("pass").value
+        Conpass = document.getElementById("passw").value
+        
+
+        if (name == "") {
+            document.getElementById("seml").innerHTML = "**please fill the email"
+            return false
+
+        }
+        if (pass == "") {
+            document.getElementById("spass").innerHTML = "**please fill the password"
+            return false
+        }
+        if (Conpass != pass) {
+            document.getElementById("spassw").innerHTML = "**password not match"
+            return false
+        }
+        
+        window.open("./Locla_storege2.html");
+    }
+
+
+
+    
+
+</script>
+
+</html>
