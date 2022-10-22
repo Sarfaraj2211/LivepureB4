@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato" sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.image1 {
+    background-image: url(./../img/image/cat7.jpg);
+    min-height: 100%;
+}
+
+.image2 {
+    background-image: url(./../img/image/cat6.jpg);
+    min-height: 400px;
+}
+
+.image3 {
+    background-image: url(./../img/image/cat5.jpg);
+    min-height: 400px;
+}
+
+.image1,
+.image2,
+.image3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.textimg1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: rgb(215, 22, 22);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    /* background: #863f04; */
+}
+
+.textbg1 {
+    background: #863f04;
+    color: rgb(226, 231, 236);
+    padding: 30px;
+}
+
+.section {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.section_light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section_dark {
+    background-color: #282e34;
+    color: #ddd;
+}

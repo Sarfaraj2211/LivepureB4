@@ -1,0 +1,49 @@
+
+h1{
+    background-color:aqua;
+    border-bottom: 100px;
+
+}
+#menutab{
+    background-color:aqua;
+}
+#div1{
+    color: darkred;
+}
+#div2{
+    color:darkmagenta;
+}
+#div3{
+    color: mediumvioletred;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    -ms-text-combine-horizontal: all;
+    width: 100%;
+    height: 200px;
+    background:aqua;
+
+}
+h3{
+    text-align: center;
+}
+
+#homepage {
+    background-color: burlywood;
+    margin-top: -42px;
+    width: 100%;
+    height: 600px;
+}
+
+#first1 {
+    text-decoration-color:brown;
+}
+
+#second2 {
+    color: darkmagenta;
+}
+
+#third3 {
+    color: mediumvioletred;
+}

@@ -1,6 +1,6 @@
 (1)what is sementic and nonsementic tags?
 Ans:-
-
+sementic:it is give mening fule sence.
 
 
 
@@ -10,9 +10,10 @@ Ans:-
 
 
 (2)What is empty tags? give atlest 3 examples and it's syntaxt?
-Ans:-
-
-
+Ans:-Empty tags have note closing tags 
+ex :
+<br>
+<hr>
 
 
 
@@ -22,37 +23,38 @@ Ans:-
 
 
 (3) what is work of formatting tags? give the atlest 5 examples.
-Ans:-
-
-
-
-
-
-
-
+Ans:-formatting tags can format html page
+ex:<em>
+<i>
+<b>
+<span>
+<dle>
+<sub>
+<sup>
 
 
 
 
 4)what is use of below tags
     <strong>
-Ans:-
+Ans:-it use bolt porpus
 
 
     <b>
-Ans:-
+Ans:-it use bolt porpus
 
 
      <small>
- Ans:-
+ Ans:-it use for smol writing
 
 
     <sub>
- Ans:-
+ Ans:-it is use mathmatics fourmul ,it writing element no
 
 
     <sup>
- Ans:-
+ Ans:-it is use mathmatics fourmul.
+ it is use writing power of element
 
 
     <blockquote>
@@ -68,13 +70,14 @@ Ans:-
 
 
     <bdo>
-Ans:-
+Ans:-it is use writing oposit text.
+ex ,ambulance
 
 
  
 
 (5) write 2 attribute of anchore tag?
-Ans:-
+Ans:-href,alt,src
 
 
  
@@ -89,7 +92,8 @@ Ans:-
 
  
 (7) what is different between colspan and rowspan in HTML table?
-Ans:-
+Ans:-colspan:it is use to murge (2 or more hhan 2) colam.
+eowspan:it is use for murg (2 or more hhan 2) row.
 
 
 
@@ -114,9 +118,9 @@ Ans:-
 
 
 (9) what is block level and inline element? give atleast 5 exmaple.
-Ans:-
-
-
+Ans:
+Bblock level:-its block the line,and brake the line ,it aquepy ful wirth
+ex:-<h1> to <h6>,<p>,<div>,<pre>,<br>
 
 
 
@@ -129,7 +133,43 @@ Ans:-
                 2.Shyam, Math
                 3.Murli, Chemistry
 
-code:-
+code:- <style>
+        table,
+        td {
+            border: 2px solid red;
+            border-collapse: collapse;
+            }
+    </style>
+
+ <table>
+            <tr>
+                <ul>
+                    <th>
+                        <li>Roll No</li>
+                        <li>Student Name</li>
+                        <li>Sub Name</li>  
+                    </th>
+                </ul>
+            </tr>
+              <tr>
+                <ol>
+                    <td>
+                        <li>Ram</li>
+                        <li>Shyam</li>
+                        <li>Murly</li>  
+                    </td>
+                </ol>
+            </tr>
+              <tr>
+                <ol>
+                    <th>
+                        <li>physics</li>
+                        <li>Math</li>
+                        <li>Chemistry</li>  
+                    </th>
+                </ol>
+            </tr>
+        </table>
 
 
 
