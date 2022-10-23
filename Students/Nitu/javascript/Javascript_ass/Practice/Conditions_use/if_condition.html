@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="" onsubmit=" return myform();">
+    <span id="nam"></span><br>
+    <input type="text" id="name">
+    
+    <input type="text" id="clas">
+    <!-- <input type="submit" placeholder="sumbit"> -->
+    <button type="submit">button</button>
+  </form>   
+</body>
+<script>
+    
+    
+    function myform(){
+        let username = document.getElementById("name").value; 
+        let classn = document.getElementById("clas").value;   
+if(username ==""){
+    document.getElementById("nam").innerHTML="fill**";
+    return false;
+}else{
+    true
+}
+}
+    //}else{
+        //document.getElementById("nam").innerHTML="**fill";
+        //return false;  
+    //}
+    //var age= 19;
+   // if(age >=18){
+     // alert(" yes you can vote");
+    //} 
+    //else{
+       // alert(" no you can vote");  
+    //} 
+  </script>
+</html>

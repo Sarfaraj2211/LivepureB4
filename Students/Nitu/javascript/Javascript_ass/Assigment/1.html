@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="myForm" onsubmit="return validateForm()" method="POST" action="login.php" >         
+        <input type="text" name="username" id="username" />
+        <input type="password" name="password" id="password" />
+        <input type="submit" name="submitBt"value="LogIn" />
+    </form>
+    
+</body>
+<script>
+    function validateForm(){
+        var uname = document.forms["myForm"]["username"].value;
+        var pass = document.forms["myForm"]["password"].value;
+    
+        if((!isEmpty(uname, "Log In")) && (!isEmpty(pass, "Password"))){
+    
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+    function isEmpty(elemValue, field){
+        if((elemValue == "") || (elemValue == null)){
+            alert("you can not have "+field+" field empty");
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+</script>
+</html>

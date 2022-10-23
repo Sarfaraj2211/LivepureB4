@@ -1,0 +1,28 @@
+
+ #img{
+     width: 250px; 
+    height: 250px; 
+    border-radius: 100%; 
+    margin-left: 630px;
+    border-radius:50%;
+}
+h1{
+    text-align: center;
+    color:rgb(131, 172, 247);
+}
+#hr{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: red;
+    color: blue;
+}
+h3,p{
+    margin-right: 100px;
+    margin-left: 100px;  
+}
+h3{
+    color: brown;
+}
+body{
+    background-color: antiquewhite;
+}

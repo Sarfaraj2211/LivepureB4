@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* ul.demo {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: square inside url("sqpurple.gif");
+        } */
+
+
+        li {
+            position: relative;
+            list-style-type: none;
+        }
+
+        li:before {
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: -16px;
+            width: 0.5%;
+            height: 20%;
+            background-image: url('./../../image/scenery.png');
+        }
+    </style>
+</head>
+
+<body>
+    <p>Default list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <p>Remove bullets, margin and padding from list:</p>
+    <ul class="demo">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+</body>
+
+</html>

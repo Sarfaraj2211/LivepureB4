@@ -1,0 +1,187 @@
+#form{
+    background-color:rgb(205, 236, 249);
+    text-align: center;
+    border: 5px solid rgb(236, 241, 231); 
+      margin-left: 500px; 
+    margin-right: 400px;
+}
+#name1{ 
+    border: 2px solid white;
+    padding: 10px;
+    margin-right:100px;
+    
+    /* background-color: rgb(236, 241, 231); */
+    margin-top: 3px;
+    
+    width: 200px;
+    
+    
+}
+#name{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px;
+
+     /* width: 200px; 
+    height: 30px;     */
+}
+#lname{
+   margin-right: 20px;
+}
+#Fname{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right:90px;
+    margin-top: 3px;
+    width: 200px;
+}
+#Fname1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px;
+}
+#Fname2{
+    margin-right: 20px;
+}
+#email1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px; 
+}
+#email2{
+    margin-right: 20px; 
+}
+#email3{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right:60px;
+    
+    margin-top: 3px;
+    width: 200px;
+}
+#mobil2{
+    margin-right: 20px; 
+} 
+
+#mobilno3{
+    border: 2px solid white;
+    /* background-color: ; */
+    padding: 10px;
+    margin-right:75px;
+    margin-top: 3px;
+    width: 200px;
+}
+#mobilno1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px; 
+      
+}
+#dob2{
+    margin-right: 20px;    
+    /* margin-left: -100px; */
+}
+#dob3{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right:25px;
+    margin-top: 3px;
+    width: 200px;  
+}
+#dob1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px;  
+}
+/* #addres{
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 100px;
+    
+    background-color: rgb(206, 241, 172); 
+    margin-top: 3px;
+    width: 200px; */
+    
+/* } */
+#gen{
+    margin-left: -100px;
+}
+#male{
+    margin-left: 10px;
+}
+#femal{
+    margin-left: 10px;
+}
+#gen1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px;   
+}
+#clas1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px;    
+}
+#clas3{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    
+}
+#clas2{
+    margin-right: 20px; 
+}
+#addrs1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px;     
+}
+#addrs2{
+    margin-right: 20px; 
+    margin: 20px; 
+}
+#addrs3{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    
+}
+#submit1{
+    border: 1px solid rgb(236, 241, 231);
+    background-color:rgb(236, 241, 231) ;
+    padding: 10px;
+    margin-left:100px;
+    margin-right:50px; 
+    margin-top:3px; 
+}
+#submit2{
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    color: white;
+    
+
+}

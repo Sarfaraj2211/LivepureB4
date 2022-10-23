@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formBlock {
+            border: 2px solid red;
+            width: 250px;
+            padding: 20px;
+            margin: 20px 0 0 20px;
+            background-color: aqua;
+            border-radius: 2%;
+        }
+
+        input[type] {
+            border-radius: 20px;
+        }
+
+        /* label[for=inputFormName]{
+            color: rgb(208, 238, 39);
+        } */
+
+        label[for]{
+            color: rgb(252, 57, 8);
+        }
+
+        button[id=subBtn]{
+            background-color: red;
+            border-radius: 20px;
+            /* height: 100px; */
+            width: 100%;
+            height:5vh;
+        }
+
+        button[id=subBtn]:hover{
+            background-color: darkgoldenrod;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="formBlock" class="formBlock">
+        <form action="" id="formSection" class="formSection">
+            <h1 id="formTitle">Registration Form</h1>
+
+            <!-- name block -->
+            <div id="formNameBlock">
+                <label id="lblFormName" for="inputFormName">Name</label><br>
+                <input type="text" id="inputFormName" placeholder="Enter Name">
+            </div>
+            <br>
+              
+            <!-- Email block -->
+            <div id="formEmailBlock">
+                <label id="lblFormEmail" for="inputFormEmail">Email</label><br>
+                <input type="email" placeholder="enter email" id="inputFormEmail">
+            </div>
+            <br>
+
+            <!-- contact block -->
+            <div id="formContactBlock">
+                <label id="lblFormContact" for="inputFormContact">Contact</label><br>
+                <input type="number" id="inputFormContact">
+            </div> <br>
+
+            <!-- password block -->
+            <div id="formPasswordBlock">
+                <label id="lblFormPassword" for="inputFormPassword">Password</label><br>
+                <input type="password" id="inputFormPassword">
+            </div> <br>
+
+            <!-- button block -->
+            <div id="formSubmitBtnBlock">
+                <!-- <input type="button" id="btnSubmit" value="type button"> -->
+                <!-- no reload of page -->
+
+                <button id="subBtn">Submit</button>
+                <!-- reload of page -->
+
+                <!-- <input type="submit" id="btnSubmit" value="type Submit"> -->
+                <!-- reload of page -->
+            </div>
+           
+        </form>
+    </div>
+</body>
+
+</html>

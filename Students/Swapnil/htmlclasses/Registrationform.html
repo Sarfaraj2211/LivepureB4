@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+</head>
+
+<body>
+  <form onsubmit="register()" name="abc">
+    <div>
+      <h1>Registration form for our website</h1>
+
+      <lable>Name</lable><br>
+      <input type="text" id="tx"><br>
+
+      <label>Email</label><br>
+      <input type="email" id="el"><br>
+
+      <label>Password</label><br>
+      <input type="password" id="pwd"><br>
+
+      <label>Confirm-Password</label><br>
+      <input type="password" id="cpwd"><br>
+
+      <label>Mobile</label><br>
+      <input type="number" id="ctc"><br>
+      <div id="gdr">
+        <label>Gender</label><br>
+        <input type="radio" id="m" name="Gender" value="Male">
+        <label for="m">Male</label><br>
+        <input type="radio" id="f" name="Gender" value="Female">
+        <label for="f">Female</label><br><br>
+      </div>
+      <label>Select your course</label><br>
+      <select type="text" id="sub" value="" name="Subject">
+        <option>BTECH</option>
+        <option>BBA</option>
+        <option>BCA</option>
+        <option>B.COM</option>
+        <option>GEEKFORGEEKS</option>
+      </select><br><br>
+
+      <label>Address</label><br>
+      <input type="text" id="add"><br>
+
+      <p>
+        <input type="submit" name="Sign Up" />
+        <input type="reset" value="Reset" />
+      </p>
+
+    </div>
+  </form>
+  <script>
+    function register() {
+      var name = document.abc.tx.value;
+      var email = document.abc.el.value;
+      var Password = document.abc.pwd.value;
+      var Confirmpassword = document.abc.cpwd.value;
+      var Mobile = document.abc.ctc.value;
+      var Gender = document.abc.gdr.value;
+      var Course = document.abc.sub.value;
+      var address = document.abc.add.value;
+      var pass1=document.getElementById('pwd').value;
+      var pass2=document.getElementById('cpwd').value;
+
+
+      if (name== null) {
+        alert("Enter valid your name")
+        return false;
+      }
+      if (email== null) {
+        alert("Enter valid Email Address")
+        return false;
+      }
+      if (pass1.length < 6) {
+        alert("Enter atleast 6 characters long")
+        return false;
+      }
+      if (pass1 != pass2) {
+        alert("Passwords do not match.");
+        return false;
+      }
+      if (Mobile==null) {
+        alert("Enter valid Mobile Number")
+        return false;
+      }
+      if (Gender == "-1") {
+        alert("select gender")
+        return false;
+      }
+      if (Course == "-1") {
+        alert("select course")
+        return false;
+      }
+      if (address== null) {
+        alert("Enter Address")
+        return false;
+      }
+      else {
+        alert("Success")
+        
+      }
+    }
+  </script>
+</body>
+
+</html>

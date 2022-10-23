@@ -1,0 +1,68 @@
+1) What are style sheets?
+Answer:-
+      # Style Sheets:- It is nothing but its use for the develoing style or wonderful UI.
+           like CSS :- It's stands for cashcading style sheet.
+                      - it's use 3 types 
+                                        1) inline
+                                        2) external
+                                        3)internal
+                    - for external CSS we use link tage
+                            - sntyx is 
+                                   <link rel="stylesheet" src=".css"> 
+
+2) Write an HTML table tag sequence that outputs the following:
+O/p:-
+NAME  MOBILE No   Address
+Mohan 123456        India 
+
+Answer:-
+     
+
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table for test</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th> NAME</th>
+            <th>MOBILE No</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <th>Mohan </th>
+            <th>123456 </th>
+            <th>India</th>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+3)Can a single text link point to two different web pages?
+Answer:-
+       no , becoz anchar taga only accept attribut
+
+
+4)  What is a marquee?
+Answer:-
+        it is use to moving text left to right or vice versa.
+
+5) Name few new tags included in the HTML 5 ?
+Answer:-
+       few new tags use in html 5 is
+            1) <audio>
+            2) <footer>
+            3) <command>
+6) How to add any webpage inside our webpage?
+Answer:-
+
+7)List out block level and inline tag
+Answer:-
+
+8) what is element?
+Answer:-

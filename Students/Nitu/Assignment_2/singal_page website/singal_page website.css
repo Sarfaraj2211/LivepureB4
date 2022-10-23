@@ -1,0 +1,153 @@
+.nav{
+    border: 2px solid rgb(247, 247, 252);
+    padding: 20px;
+    
+
+}
+#nav_text{
+    /* float: right; */
+    margin-top: -7px;
+    font-size: 20px;
+    margin-left: 750px;
+    
+    
+   
+    
+}
+#hom{
+    margin-right: 30px;
+    text-decoration:none;
+    color: rgb(55, 17, 195);
+    
+    
+}
+#about{
+    margin-right:30px;
+    text-decoration:none;
+    color:rgb(55, 17, 195); 
+}
+#event{
+    margin-right:30px;
+    text-decoration:none;
+    color: rgb(55, 17, 195);
+}
+#course{
+    margin-right:30px;
+    text-decoration:none;
+    color: rgb(55, 17, 195);
+} 
+#blog{
+    margin-right:30px;
+    text-decoration:none;
+    color: rgb(55, 17, 195);
+}
+#page{
+    margin-right:30px;
+    text-decoration:none; 
+    color:rgb(55, 17, 195);
+}
+#cont{
+    margin-right:30px;
+    text-decoration:none; 
+    color:rgb(55, 17, 195);
+}
+.head_line{
+    margin-left: -600px;
+    margin-top: 8px;
+    margin-bottom:-8px;
+    padding: -10px;
+}
+#spn{
+    color:orangered;
+} 
+#img{
+    margin-top: 10px;
+} 
+
+.second{
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin-left: 150px;
+    /* margin-top: 20px; */
+    background-color:orangered ;
+    padding: 40px;
+
+}
+.second h1{
+    color:white;
+   font-size: 25px;
+}
+.div input{
+    width: 300px;
+    height: 30px;
+    /* padding: 10px; */
+    margin: 10px;
+}
+#btn{
+    width: 300px;
+    height: 30px;
+    background-color:navy;
+}
+.form{
+    background-color: rgb(185, 176, 176);
+    margin-top: -3px;
+}
+#img2{
+    float: right;
+    
+
+}
+
+#nav1{
+    border: 2px solid navy;
+    
+    color: white;
+    background-color: navy;
+    padding: 10px;
+}
+#nava{
+    margin-left:1200px;
+}
+#fac{
+    color: white;
+    margin-right:30px;
+    text-decoration:none;    
+}
+#in{
+    color: white;
+    margin-right:30px;
+    text-decoration:none;
+}
+#tw{
+    color: white;
+    margin-right:30px;
+    text-decoration:none;
+}
+#wat{
+    color: white;
+    margin-right:30px;
+    text-decoration:none;
+}
+#exp{
+    text-align: center;
+}
+#our{
+    color: orangered;
+}
+#hr1{
+    margin-left: 720px;
+    margin-right: 700px;
+    color: orangered;
+    margin-top: -10px;
+    
+
+}
+#hr2{
+    margin-left: 740px;
+    margin-right: 680px;
+
+    margin-top: -6px;
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #mainFormBlock {
+            border: 3px groove green;
+            width: 300px;
+            padding: 5px;
+            background-color: aqua;
+            outline: 5px groove red;
+            outline-offset: 2px;
+            margin: 5px;
+            position: relative;
+            left: 100px;
+        }
+        input[type]{
+            color: green;
+            /* background-color: red; */
+        }
+
+        div{
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Form</h1>
+
+    <form action="" method="" id="" class="" style="" title="" novalidate>
+        <div id="mainFormBlock">
+            <div id="emailBlock">
+                <label id="lblEmail" for="inpEmail">Email</label><br>
+                <input id="inpEmail" name="" placeholder="Enter Email" type="text">
+            </div>
+
+            <div id="nameBlock">
+                <label id="lblName" for="inpName">Name</label><br>
+                <input id="inpName" name="" type="number">
+            </div>
+            <div id="dateOfBirthBlock">
+                <label id="lblDateOfBirth" for="inpDateOfBirth" title="Date Of Birth">DOB</label><br>
+                <input id="inpDateOfBirth" type="date">
+            </div>
+
+            <div id="btnSubmit">
+                <button>Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

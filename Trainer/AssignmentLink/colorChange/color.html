@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="bdy">
+
+</body>
+
+
+<script>
+    let colorArray = ['red', 'blue', 'green', 'yellow', 'pink', 'orange', "black"];
+
+    function changeColors() {
+        console.log(colorArray[Math.floor(Math.random() * colorArray.length)])
+
+        document.getElementById('bdy').style.backgroundColor =
+            colorArray[Math.floor(Math.random() * colorArray.length)];
+
+    }
+
+    setInterval(changeColors, 2000);
+
+
+
+
+</script>
+
+</html>

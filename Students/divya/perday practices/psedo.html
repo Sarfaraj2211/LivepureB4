@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo_selector</title>
+    <style>
+        a:link {
+            color: rgb(20, 60, 17);
+            background-color: aqua;
+            border: 2px solid red;
+        }
+
+        a:active {
+            color: rgb(19, 1, 4);
+            background-color: rgb(251, 122, 10);
+            border: 2px solid rgb(233, 7, 214);
+        }
+
+        a:visited {
+            color: rgb(245, 69, 0);
+            background-color: rgb(42, 9, 230);
+            border: 2px solid rgba(156, 45, 156, 0.555);
+        }
+
+        a:hover,
+        a:active {
+            font-size: 50px;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <p>
+            <b>
+                <a href="https://www.google.com/" target="_blank">This is a link</a>
+                <a href="#">test</a>
+                <a href="./1.html">test 2</a>
+                <a href="./4.html">test 3</a>
+            </b>
+        </p>
+    </div>
+</body>
+
+</html>

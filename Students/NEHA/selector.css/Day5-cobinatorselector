@@ -1,0 +1,81 @@
+Pa<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        / simple selector /
+        /* div,p{
+            background-color: aqua;
+        } */
+
+        / combinator /
+        /* 1 descendennt   space   all level child*/
+        /* div p {
+            background-color: aqua;
+        } */
+
+        /* 2 child selector    >     only his child,no grand parent relation*/
+        /* 
+        div>p {
+            background-color: aqua;
+        }
+
+        section>p {
+            background-color: red;
+        } */
+
+        /* 3 adjacent sibling selector     +     element outside the relation (means nearest element jst outside)*/
+        div+p {
+            border: 2px solid rgb(243, 7, 47);
+        }
+        
+        /* div+p {
+            background-color: yellow;
+        } */
+
+        / tilt /
+        /*4  general sibling     ~   (shift + tab above key  `(abactic)  )  all element after parent tag*/
+        div~p {
+            background-color: yellow;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <h2>General Sibling Selector</h2>
+
+    <p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+    <p>Paragraph 1.</p>
+
+
+
+    <div>
+        <p>Paragraph 2.</p>
+        <code>
+            <p>
+                code
+            </p>
+        </code>
+    </div>
+
+    <p>Paragraph 3.</p>
+    <code>Some code.</code>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 4.</p>
+
+    <div>
+        <p>Paragraph 2.</p>
+    </div>
+    <p>Paragraph 10.</p>
+    <p>Paragraph 11.</p>
+
+</body>
+
+</html>

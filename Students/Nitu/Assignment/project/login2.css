@@ -1,0 +1,55 @@
+.second{
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: aliceblue;
+
+}
+.second h1{
+    color: aqua;
+   font-size: 25px;
+}
+.div input{
+    width: 200px;
+    height: 30px;
+}
+#btn{
+    width: 150px;
+    height: 40px;
+    background-color: hsla(210, 100%, 50%, 0.899);
+    color: whitesmoke;
+    font-size: 20px;
+}
+.first{
+    border: 1px solid blue;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    padding: 100px;
+    margin-top: 80px;
+
+    background-color: rgb(17, 154, 208);
+}
+.body{
+    background-color: blue;
+    height: 700px;
+}
+.third{
+height: 80px;
+    
+}
+#nav li{
+    display:inline-block;
+    /* border: 1px solid white; */
+    list-style: none;
+    margin-top: -15px;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+
+}

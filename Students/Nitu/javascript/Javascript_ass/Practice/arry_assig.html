@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        h3,h4{
+            display: inline-block;
+        } -->
+    <!-- </style> -->
+</head>
+<body>
+    <!-- <div >
+        <h1>permanent</h1>
+        <button type="submit" onclick="onclick()" >submit</button>
+    </div> -->
+    
+    
+    <h3 id="head"></h3>
+    <h3 id="head1"></h3>
+    <h3 id="head2"></h3>
+    <h3 id="head3"></h3>
+    <h3 id="head4"></h3>
+    <h3 id="head5"></h3>
+    <h3 id="head6"></h3>
+
+   <script>
+
+    let data=[{ address: [{ permanentAddress: 'india' }, { tempAddress: 'india'}] },
+    { MobileNo: [1234564, 247854] },
+    { qualification: [{tenth: '75%' }, { Intermediat:'85%' }, { UG: '95%' }] },];
+    
+    let x="permanentAddress:"
+
+    document.getElementById("head").innerHTML=data[0].address[0].permanentAddress;
+    document.getElementById("head1").innerHTML=data[0].address[1].tempAddress
+    document.getElementById("head2").innerHTML=data[1].MobileNo[0]
+    document.getElementById("head3").innerHTML=data[1].MobileNo[1]
+    document.getElementById("head4").innerHTML=data[2].qualification[0].tenth
+    document.getElementById("head5").innerHTML=data[2].qualification[1].Intermediat
+    document.getElementById("head6").innerHTML=data[2].qualification[2].UG
+
+    console.log( "permanentAddress:-",data[0].address[0].permanentAddress);
+    console.log( "tempAddress :-",data[0].address[1].tempAddress);
+    console.log( "Phone no1:-",data[1].MobileNo[0]);
+    console.log( "Phone no2:-",data[1].MobileNo[1]);
+    console.log("tenth:-",data[2].qualification[0].tenth);
+    console.log("Intermediat:-",data[2].qualification[1].Intermediat);
+    console.log( "UG :-",data[2].qualification[2].UG);
+
+    
+   </script> 
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head1"></h1>
+    <script>
+        // let x = Math.ceil("Ram");    //return the value rounded up to its nearest integer
+        // let y = Math.floor(-2.8);    //return the value rounded down to its nearest integer
+        // let z = Math.round(Math.sqrt(12)-1);        //return the value rounded to its nearest integer
+        // let p = Math.trunc(2.7);        //return the integer value
+        // let q = Math.max(15,34,11,49);  // return the heighest value in a list
+        // let a = Math.min(33,44,97,34);  //return the lowest value in a list
+        // let b = Math.sqrt(Math.cbrt(64));  //return the square root .
+        // let c = Math.cbrt(64);  //returns the cube root.
+
+        // let g = Math.pow(2,3); //return the value of power
+        // let h = Math.abs("string");  //returns the absolute positive value
+
+        // let k = Math.LN2;
+
+        // let o = Math.PI;
+
+        // let i = Math.E;
+
+        // let r = Math.floor(Math.random()*100)+1; //returns a random number between 0 and 1
+
+        let l = [99, 33,12,43,4];
+
+        // l.sort();
+        function Fun2() {
+            l.sort(function () { return 0.5 - Math.random() });
+            document.getElementById("head1").innerHTML=l;
+        }
+        
+    </script>
+    <button onclick="Fun2()" >Array sort</button>
+
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <style>
+        body {
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        #form {
+            background-color: aliceblue;
+            padding: 50px;
+
+        }
+
+        input {
+            width: 200px;
+            margin: 10px 0px;
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            width: 220px;
+            background-color: blue;
+            color: white;
+        }
+
+        #snam {
+            color: red;
+        }
+
+        #spass {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="login">
+
+        <form id="form">
+            <h2>logi page</h2>
+            <span id="snam"></span><br>
+            <input type="text" placeholder="user name" id="name"><br>
+            <span id="spass"></span><br>
+            <input type="password" placeholder="password" id="pass"><br>
+            <button onclick="return validation()">login</button>
+
+        </form>
+        <script>
+            
+            let password = document.getElementById('pass').value;
+            function validation(){
+                var username = document.getElementById('name').value();
+                if(username ==""){
+                    document.getElementById("snam").innerHTML="** please fill the name";
+                    return false;
+                } else {
+                     return true;
+                }
+                if (password == "") {
+                    document.getElementById('spass').innerHTML = "** please creat password";
+                    return false;
+                } else {
+                   return true;
+                }
+                
+            }   
+        </script>
+    </div>
+
+</body>
+
+</html>
